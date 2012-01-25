@@ -26,3 +26,4 @@ C:\Projects\UmbracoPupPigConnector\src\Umbraco.Puppig.Core.Tests\bin\Debug\nunit
 C:\Projects\UmbracoPupPigConnector\src\Umbraco.Puppig.Core.Tests\bin\Debug\QuickGraph.xml
 C:\Projects\UmbracoPupPigConnector\src\Umbraco.Puppig.Core.Tests\obj\Debug\Umbraco.Puppig.Core.Tests.dll
 C:\Projects\UmbracoPupPigConnector\src\Umbraco.Puppig.Core.Tests\obj\Debug\Umbraco.Puppig.Core.Tests.pdb
+C:\Projects\UmbracoPupPigConnector\src\Umbraco.Puppig.Core.Tests\bin\Debug\Data\EmptyFeed.xml
