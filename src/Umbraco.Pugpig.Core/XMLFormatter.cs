@@ -21,8 +21,8 @@ namespace Umbraco.Pugpig.Core
             var element = new XElement("feed",
                                        new XElement("id", m_feedInfo.FeedId),
                                        GetLinkElement(),
-                                       new XElement("Description",
-                                                    "An XML feed containing steps to treat all everyday first aid conditions on the British Red Cross website"),
+                                       new XElement("Title", feed.Title),
+                                       new XElement("Updated", feed.LastUpdated.ToString("ddd, dd MMM yyyy H:mm:ss zzz")),
                                        GetEntries(feed.Entries));
 
             XmlReader xmlReader = element.CreateReader();
@@ -57,37 +57,40 @@ namespace Umbraco.Pugpig.Core
         private List<XElement> GetEntries(List<Entry> entries)
         {
             List<XElement> elements = new List<XElement>();
-            foreach (var entry in entries)
+            if (entries != null)
             {
-                elements.Add(new XElement("entry",
-                             new XElement("Title", entry.Title),
-                             new XElement("id", entry.Id),
-                             new XElement("updated", entry.Updated),
-                             new XElement("author",
-                             new XElement("name", entry.AuthourName)),
-                             new XElement("dcterms:issued", entry.Updated.ToShortDateString()),
-                             GetSummary(entry),
-                             GetCoverImage(entry),
-                             GetEditionUrl(entry),
-                             GetAlternateEdition(entry)
-                                 ));
+                foreach (var entry in entries)
+                {
+                    elements.Add(new XElement("entry",
+                                              new XElement("Title", entry.Title),
+                                              new XElement("id", entry.Id),
+                                              new XElement("updated", entry.Updated),
+                                              new XElement("author",
+                                                           new XElement("name", entry.AuthourName)),
+                                              new XElement("dcterms:issued", entry.Updated.ToShortDateString()),
+                                              GetSummary(entry),
+                                              GetCoverImage(entry),
+                                              GetEditionUrl(entry),
+                                              GetAlternateEdition(entry)
+                                     ));
+                }
             }
             return elements;
         }
 
         private XElement GetAlternateEdition(Entry entry)
         {
-            throw new NotImplementedException();
+            return new XElement("a");
         }
 
         private XElement GetEditionUrl(Entry entry)
         {
-            throw new NotImplementedException();
+            return new XElement("a");
         }
 
         private XElement GetCoverImage(Entry entry)
         {
-            throw new NotImplementedException();
+            return new XElement("a");
         }
 
         private XElement GetSummary(Entry entry)

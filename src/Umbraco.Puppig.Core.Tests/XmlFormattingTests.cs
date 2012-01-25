@@ -10,7 +10,7 @@ using Umbraco.Pugpig.Core;
 using Umbraco.Pugpig.Core.Interfaces;
 using Umbraco.Pugpig.Core.Models;
 
-namespace Umbraco.Puppig.Core.Tests
+namespace Umbraco.Pugpig.Core.Tests
 {
     [TestFixture]
     public class XmlFormattingTests

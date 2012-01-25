@@ -7,5 +7,6 @@ namespace Umbraco.Pugpig.Core.Models
     {
         public DateTime LastUpdated { get; set; }
         public List<Entry> Entries { get; set; }
+        public string Title { get; set; }
     }
 }
