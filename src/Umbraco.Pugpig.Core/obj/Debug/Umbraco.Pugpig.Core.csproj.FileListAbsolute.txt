@@ -1,0 +1,5 @@
+C:\Projects\UmbracoPupPigConnector\src\Umbraco.Pugpig.Core\bin\Debug\Umbraco.Pugpig.Core.dll
+C:\Projects\UmbracoPupPigConnector\src\Umbraco.Pugpig.Core\bin\Debug\Umbraco.Pugpig.Core.pdb
+C:\Projects\UmbracoPupPigConnector\src\Umbraco.Pugpig.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\UmbracoPupPigConnector\src\Umbraco.Pugpig.Core\obj\Debug\Umbraco.Pugpig.Core.dll
+C:\Projects\UmbracoPupPigConnector\src\Umbraco.Pugpig.Core\obj\Debug\Umbraco.Pugpig.Core.pdb

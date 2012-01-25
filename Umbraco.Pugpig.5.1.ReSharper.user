@@ -1,0 +1,47 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Tests" priority="0" />
+      <Item value="void" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="587" fromTop="9" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:EmptyFeed.xml" caret="459" fromTop="5" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:1Edition.xml" caret="1008" fromTop="18" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:2Edition.xml" caret="469" fromTop="6" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="0" fromTop="0" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="979" fromTop="22" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="154" fromTop="6" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="415" fromTop="6" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:EmptyFeed.xml" caret="458" fromTop="7" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:EmptyFeed.xml" caret="365" fromTop="3" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:1Edition.xml" caret="1008" fromTop="18" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:1Edition.xml" caret="681" fromTop="13" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:2Edition.xml" caret="462" fromTop="6" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:2Edition.xml" caret="1086" fromTop="15" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:2Edition.xml" caret="1539" fromTop="24" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

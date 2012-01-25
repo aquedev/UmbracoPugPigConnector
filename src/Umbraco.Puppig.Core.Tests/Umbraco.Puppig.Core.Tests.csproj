@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>17dba00c-17e0-4255-b237-ebdcea0c6370</ProjectGuid>
+    <ProjectGuid>{0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Umbraco.Puppig.Core.Tests</RootNamespace>
@@ -31,6 +31,31 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Jolt">
+      <HintPath>..\..\lib\jolt\Jolt.dll</HintPath>
+    </Reference>
+    <Reference Include="Jolt.Testing">
+      <HintPath>..\..\lib\jolt\Jolt.Testing.dll</HintPath>
+    </Reference>
+    <Reference Include="Jolt.Testing.Assertions.NUnit">
+      <HintPath>..\..\lib\jolt\Jolt.Testing.Assertions.NUnit.dll</HintPath>
+    </Reference>
+    <Reference Include="Jolt.Testing.GeneratedTypes">
+      <HintPath>..\..\lib\jolt\Jolt.Testing.GeneratedTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\lib\jolt\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq">
+      <HintPath>..\..\packages\Moq.4.0.10827\lib\NET40\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\jolt\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickGraph">
+      <HintPath>..\..\lib\jolt\QuickGraph.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,8 +65,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="XmlFormattingTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Umbraco.Pugpig.Core\Umbraco.Pugpig.Core.csproj">
+      <Project>{BE0E65FC-3A00-474C-982A-CEABBB68BFC6}</Project>
+      <Name>Umbraco.Pugpig.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data\1Edition.xml" />
+    <EmbeddedResource Include="Data\2Edition.xml" />
+    <EmbeddedResource Include="Data\EmptyFeed.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

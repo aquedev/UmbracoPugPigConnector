@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbraco.Pugpig.Core", "src\Umbraco.Pugpig.Core\Umbraco.Pugpig.Core\Umbraco.Pugpig.Core\Umbraco.Pugpig.Core.csproj", "{BE0E65FC-3A00-474C-982A-CEABBB68BFC6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbraco.Pugpig.Core", "src\Umbraco.Pugpig.Core\Umbraco.Pugpig.Core.csproj", "{BE0E65FC-3A00-474C-982A-CEABBB68BFC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{71F77D17-0E23-43F3-80EB-48BC8DACE618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbraco.Puppig.Core.Tests", "src\Umbraco.Puppig.Core.Tests\Umbraco.Puppig.Core.Tests.csproj", "{0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +17,15 @@ Global
 		{BE0E65FC-3A00-474C-982A-CEABBB68BFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE0E65FC-3A00-474C-982A-CEABBB68BFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE0E65FC-3A00-474C-982A-CEABBB68BFC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3} = {71F77D17-0E23-43F3-80EB-48BC8DACE618}
 	EndGlobalSection
 EndGlobal
