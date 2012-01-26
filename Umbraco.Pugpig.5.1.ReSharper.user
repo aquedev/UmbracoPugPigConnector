@@ -9,13 +9,13 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="Tests" priority="0" />
+      <Item value="Tests" priority="1" />
       <Item value="void" priority="1" />
       <Item value="public" priority="5" />
       <Item value="XmlNodeList`0" priority="0" />
       <Item value="entries" priority="2" />
-      <Item value="return" priority="6" />
-      <Item value="new" priority="16" />
+      <Item value="return" priority="7" />
+      <Item value="new" priority="17" />
       <Item value="XmlDocument" priority="0" />
       <Item value="List&lt;Entry&gt;" priority="0" />
       <Item value="List&lt;XElement&gt;" priority="1" />
@@ -42,12 +42,13 @@
       <Item value="List" priority="0" />
       <Item value="elements" priority="1" />
       <Item value="entry" priority="2" />
-      <Item value="var" priority="0" />
+      <Item value="var" priority="2" />
       <Item value="summary" priority="1" />
       <Item value="int" priority="0" />
       <Item value="Feed" priority="0" />
-      <Item value="feed" priority="1" />
+      <Item value="feed" priority="4" />
       <Item value="if" priority="0" />
+      <Item value="DateTime`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Umbraco.Pugpig.Core.XmlFormatter">
       <Item value="GenerateXml`0" priority="0" />
@@ -78,8 +79,8 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:Umbraco.Pugpig.Core.Models.Feed">
       <Item value="Entries" priority="0" />
-      <Item value="LastUpdated" priority="0" />
-      <Item value="Title" priority="0" />
+      <Item value="LastUpdated" priority="1" />
+      <Item value="Title" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
       <Item value="Add`0" priority="0" />
@@ -91,46 +92,46 @@
   <RecentFiles>
     <RecentFiles>
       <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Interfaces/f:IFeedSettings.cs" caret="142" fromTop="5" />
-      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:1Edition.xml" caret="53" fromTop="1" />
       <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Interfaces/f:IXmlFormatter.cs" caret="170" fromTop="5" />
       <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Models/f:Entry.cs" caret="167" fromTop="7" />
       <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Models/f:Feed.cs" caret="263" fromTop="9" />
-      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:EmptyFeed.xml" caret="439" fromTop="5" />
       <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:2Edition.xml" caret="501" fromTop="4" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="1140" fromTop="11" />
-      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="303" fromTop="4" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="836" fromTop="0" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:EmptyFeed.xml" caret="0" fromTop="0" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:1Edition.xml" caret="458" fromTop="5" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="645" fromTop="7" />
     </RecentFiles>
     <RecentEdits>
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Interfaces/f:IFeedSettings.cs" caret="142" fromTop="5" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="1124" fromTop="16" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="1102" fromTop="15" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="2109" fromTop="16" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="937" fromTop="12" />
-      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="485" fromTop="6" />
-      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="623" fromTop="10" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="560" fromTop="10" />
       <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Interfaces/f:IXmlFormatter.cs" caret="117" fromTop="4" />
       <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="355" fromTop="4" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="1581" fromTop="32" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="1574" fromTop="32" />
       <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Interfaces/f:IXmlFormatter.cs" caret="220" fromTop="7" />
       <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="472" fromTop="7" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="1679" fromTop="7" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="3334" fromTop="6" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="1672" fromTop="7" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="3327" fromTop="6" />
       <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Models/f:Entry.cs" caret="167" fromTop="4" />
       <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Models/f:Entry.cs" caret="13" fromTop="0" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="3967" fromTop="9" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="3960" fromTop="9" />
       <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Models/f:Entry.cs" caret="263" fromTop="7" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="3944" fromTop="8" />
-      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="1310" fromTop="6" />
-      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="858" fromTop="9" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="3484" fromTop="9" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="3603" fromTop="14" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="3719" fromTop="4" />
-      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:EmptyFeed.xml" caret="439" fromTop="5" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="3937" fromTop="8" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="795" fromTop="9" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="3477" fromTop="9" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="3596" fromTop="14" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="3712" fromTop="4" />
       <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Models/f:Feed.cs" caret="263" fromTop="9" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="868" fromTop="6" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="3334" fromTop="7" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="3335" fromTop="10" />
-      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="327" fromTop="5" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="3327" fromTop="7" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="3328" fromTop="10" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="264" fromTop="5" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="1924" fromTop="3" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="854" fromTop="7" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:EmptyFeed.xml" caret="445" fromTop="5" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="1730" fromTop="23" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="1555" fromTop="19" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="1168" fromTop="19" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:1Edition.xml" caret="0" fromTop="0" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:1Edition.xml" caret="458" fromTop="5" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="164" fromTop="1" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
