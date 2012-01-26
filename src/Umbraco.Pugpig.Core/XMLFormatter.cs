@@ -21,8 +21,8 @@ namespace Umbraco.Pugpig.Core
             var element = new XElement("feed",
                                        new XElement("id", m_feedInfo.FeedId),
                                        GetLinkElement(),
-                                       new XElement("Title", feed.Title),
-                                       new XElement("Updated", feed.LastUpdated.ToString("ddd, dd MMM yyyy H:mm:ss zzz")),
+                                       new XElement("title", feed.Title),
+                                       new XElement("updated", feed.LastUpdated.ToString("yyyy-MM-ddTH:mm:sszzz")),
                                        GetEntries(feed.Entries));
 
             XmlReader xmlReader = element.CreateReader();

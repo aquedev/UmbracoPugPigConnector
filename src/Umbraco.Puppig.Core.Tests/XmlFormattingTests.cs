@@ -40,7 +40,10 @@ namespace Umbraco.Pugpig.Core.Tests
 
         private Feed GetFeed(int numberOfEntries)
         {
-            return new Feed();
+            var feed = new Feed();
+            feed.Title = "All Editions";
+            feed.LastUpdated = new DateTime(2011, 8, 8, 15, 0, 0, 0);
+            return feed;
         }
 
         private XmlReader LoadDataFeed(string name)

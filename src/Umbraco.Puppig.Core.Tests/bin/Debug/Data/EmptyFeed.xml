@@ -3,5 +3,5 @@
   <id>com.umbraco.aqueduct</id>
   <link rel="self" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="http://umbraco.local/pugpig/editions.xml"/>
   <title>All Editions</title>
-  <updated>2011-08-08T15:00:00+00:00</updated> 
+  <updated>2011-08-08T15:00:00+01:00</updated> 
 </feed>
