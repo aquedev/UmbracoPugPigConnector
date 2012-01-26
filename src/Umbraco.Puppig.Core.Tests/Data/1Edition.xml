@@ -5,14 +5,14 @@
   <title>All Editions</title>
   <updated>2011-08-08T15:00:00+01:00</updated>
   <entry>
-    <title>My First Edition</title>
-    <id>com.umbraco.edition1</id>
-    <updated>2011-08-08T14:37:52+00:00</updated>
+    <title>My First Edition1</title>
+    <id>com.umbraco.edition.1</id>
+    <updated>2011-08-08T15:00:00+01:00</updated>
     <author>
       <name>Lee Cook</name>
     </author>
-    <dcterms:issued>2012-01-30</dcterms:issued>
-    <summary type="text"></summary>
+    <dcterms:issued>2011-08-08</dcterms:issued>
+    <summary type="text">summary</summary>
     <link rel="http://opds-spec.org/image" type="image/jpg" href="img/cover.jpg"/>
     <link rel="http://opds-spec.org/acquisition" type="application/atom+xml" href="edition1.xml"/>
     <link rel="alternate" type="application/atom+xml" href="edition1.xml"/>

@@ -61,13 +61,19 @@ namespace Umbraco.Pugpig.Core
             {
                 foreach (var entry in entries)
                 {
+                    XNamespace xNamespace = "http://purl.org/dc/terms/";
                     elements.Add(new XElement("entry",
-                                              new XElement("Title", entry.Title),
-                                              new XElement("id", entry.Id),
-                                              new XElement("updated", entry.Updated),
+                                              new XElement("title", entry.Title),
+                                              new XElement("id", String.Concat("com.umbraco.edition.",entry.Id)),
+                                              new XElement("updated", entry.Updated.ToString("yyyy-MM-ddTH:mm:sszzz")),
                                               new XElement("author",
-                                                           new XElement("name", entry.AuthourName)),
-                                              new XElement("dcterms:issued", entry.Updated.ToShortDateString()),
+                                              new XElement("name", entry.AuthourName)),
+
+                                              new XAttribute(XNamespace.Xmlns + "dcterms", "http://purl.org/dc/terms/"),
+                                              new XElement(xNamespace + "issued", entry.Updated.ToString("yyyy-MM-dd")),
+
+
+                                            
                                               GetSummary(entry),
                                               GetCoverImage(entry),
                                               GetEditionUrl(entry),
@@ -90,7 +96,11 @@ namespace Umbraco.Pugpig.Core
 
         private XElement GetCoverImage(Entry entry)
         {
-            return new XElement("a");
+            var coverImage = new XElement("link");
+            coverImage.SetAttributeValue("rel", "http://opds-spec.org/image");
+            coverImage.SetAttributeValue("type", "image/jpg");
+            coverImage.SetAttributeValue("href", entry.Image.Url);
+            return coverImage;
         }
 
         private XElement GetSummary(Entry entry)

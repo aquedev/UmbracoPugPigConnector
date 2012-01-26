@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Xml;
@@ -40,7 +41,7 @@ namespace Umbraco.Pugpig.Core.Tests
         [Test]
         public void GenerateXML_GivenOneEdition_ProducesValidFeed()
         {
-            var feed = GetFeed(0);
+            var feed = GetFeed(1);
 
             XmlDocument doc = new XmlFormatter(m_settings.Object).GenerateXml(feed);
 
@@ -57,6 +58,19 @@ namespace Umbraco.Pugpig.Core.Tests
             var feed = new Feed();
             feed.Title = "All Editions";
             feed.LastUpdated = new DateTime(2011, 8, 8, 15, 0, 0, 0);
+            feed.Entries = new List<Entry>();
+            int i = 0;
+            while(i < numberOfEntries)
+            {
+                feed.Entries.Add(new Entry()
+                                     {
+                                         AuthourName = "Lee Cook", 
+                                         Id = i + 1, Summary = "summary", 
+                                         Title = "My First Edition" + (i + 1), 
+                                         Updated = new DateTime(2011, 8, 8, 15, 0, 0, 0)
+                                     });
+                i++;
+            }
             return feed;
         }
 
