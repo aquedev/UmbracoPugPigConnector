@@ -53,6 +53,23 @@ namespace Umbraco.Pugpig.Core.Tests
             }
         }
 
+        [TestCase(2)]
+        [TestCase(3)]
+        [Test]
+        public void GenerateXML_GivenMultipleEditions_ProducesValidFeed(int NumberOfEditions)
+        {
+            var feed = GetFeed(NumberOfEditions);
+
+            XmlDocument doc = new XmlFormatter(m_settings.Object).GenerateXml(feed);
+
+            Assert.IsNotNull(doc);
+            var reader = new XmlTextReader(new StringReader(doc.OuterXml));
+            using (XmlReader expectedXml = LoadDataFeed(String.Concat(NumberOfEditions,"Edition")), actualXml = reader)
+            {
+                Assert.That(actualXml, IsXml.EquivalentTo(expectedXml).IgnoreSequenceOrder);
+            }
+        }
+
         private Feed GetFeed(int numberOfEntries)
         {
             var feed = new Feed();
@@ -67,7 +84,8 @@ namespace Umbraco.Pugpig.Core.Tests
                                          AuthourName = "Lee Cook", 
                                          Id = i + 1, Summary = "summary", 
                                          Title = "My First Edition" + (i + 1), 
-                                         Updated = new DateTime(2011, 8, 8, 15, 0, 0, 0)
+                                         Updated = new DateTime(2011, 8, 8, 15, 0, 0, 0),
+                                         Image = new Image() { Url = "img/cover.jpg" }
                                      });
                 i++;
             }

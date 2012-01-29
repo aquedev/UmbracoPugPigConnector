@@ -86,12 +86,20 @@ namespace Umbraco.Pugpig.Core
 
         private XElement GetAlternateEdition(Entry entry)
         {
-            return new XElement("a");
+            var editionUrl = new XElement("link");
+            editionUrl.SetAttributeValue("rel", "alternate");
+            editionUrl.SetAttributeValue("type", "application/atom+xml");
+            editionUrl.SetAttributeValue("href", String.Concat("/pugpig/edition-", entry.Id, ".xml"));
+            return editionUrl;
         }
 
         private XElement GetEditionUrl(Entry entry)
         {
-            return new XElement("a");
+            var editionUrl = new XElement("link");
+            editionUrl.SetAttributeValue("rel", "http://opds-spec.org/acquisition");
+            editionUrl.SetAttributeValue("type", "application/atom+xml");
+            editionUrl.SetAttributeValue("href", String.Concat("/pugpig/edition-", entry.Id, ".xml"));
+            return editionUrl;
         }
 
         private XElement GetCoverImage(Entry entry)

@@ -30,4 +30,17 @@
     <link rel="http://opds-spec.org/acquisition" type="application/atom+xml" href="/pugpig/edition-2.xml"/>
     <link rel="alternate" type="application/atom+xml" href="/pugpig/edition-2.xml"/>
   </entry>
+  <entry>
+    <title>My First Edition3</title>
+    <id>com.umbraco.edition.3</id>
+    <updated>2011-08-08T15:00:00+01:00</updated>
+    <author>
+      <name>Lee Cook</name>
+    </author>
+    <dcterms:issued>2011-08-08</dcterms:issued>
+    <summary type="text">summary</summary>
+    <link rel="http://opds-spec.org/image" type="image/jpg" href="img/cover.jpg"/>
+    <link rel="http://opds-spec.org/acquisition" type="application/atom+xml" href="/pugpig/edition-3.xml"/>
+    <link rel="alternate" type="application/atom+xml" href="/pugpig/edition-3.xml"/>
+  </entry>
 </feed>
