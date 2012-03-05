@@ -19,7 +19,7 @@ namespace Umbraco.Pugpig.Core.Tests
         [SetUp]
         public void Setup()
         {
-            m_settings.SetupGet(x => x.FeedId).Returns("com.umbraco.aqueduct");
+            m_settings.SetupGet(x => x.PublicationName).Returns("com.umbraco.aqueduct");
             m_settings.SetupGet(x => x.BaseUrl).Returns("umbraco.local");
         }
 
@@ -82,7 +82,7 @@ namespace Umbraco.Pugpig.Core.Tests
                 feed.Entries.Add(new Entry
                                      {
                                          AuthourName = "Lee Cook", 
-                                         Id = i + 1, Summary = "summary", 
+                                         Id = i + 1.ToString(), Summary = "summary", 
                                          Title = "My First Edition" + (i + 1), 
                                          Updated = new DateTime(2011, 8, 8, 15, 0, 0, 0),
                                          Image = new Image { Url = "img/cover.jpg" }

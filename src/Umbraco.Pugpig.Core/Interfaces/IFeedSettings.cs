@@ -2,7 +2,7 @@
 {
     public interface IFeedSettings
     {
-        string FeedId { get; }
+        string PublicationName { get; }
         string BaseUrl { get; }
     }
 }

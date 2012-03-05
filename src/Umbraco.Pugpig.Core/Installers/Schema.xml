@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<structure>
+    <templates>
+        <!--<template Filename="uBlogsyBase.cshtml" Name="uBlogsyBase"/>
+        <template  Filename="uBlogsyPost.cshtml" Name="uBlogsyPost"/>-->
+    </templates>
+
+    <tabs>
+        <!-- define extra global tabs here-->
+        <!--<tab Alias="tab1" Name="My tab 1" SortOrder="0"/>-->
+    </tabs>
+    
+    <!--define document types-->
+    <documentTypes>
+        <documentType Name="iBookEdition" Alias="iBookEdition">
+            <Description>Represents iBookEdition</Description>
+            <Icon>doc.gif</Icon>
+            <Thumbnail>folder.png</Thumbnail>
+            <AllowedChildren></AllowedChildren>
+            <AllowedTemplates></AllowedTemplates>
+            <DefaultTemplate></DefaultTemplate>
+            <InheritedFrom></InheritedFrom>
+            <IsAbstract>True</IsAbstract>
+            <properties>
+                <property Name="Title" Alias="title" SortOrder="10" TabAlias="umbraco-internal-general-properties">
+                    <Description>No desc</Description>
+                    <DataTypeAlias>singleLineTextBox</DataTypeAlias>
+                </property>
+                <property Name="Author Name" Alias="authorName" SortOrder="10" TabAlias="umbraco-internal-general-properties">
+                    <Description>No desc</Description>
+                    <DataTypeAlias>singleLineTextBox</DataTypeAlias>
+                </property>
+                <property Name="Summary" Alias="summary" SortOrder="10" TabAlias="umbraco-internal-general-properties">
+                    <Description>No desc</Description>
+                    <DataTypeAlias>multiLineTextBox</DataTypeAlias>
+                </property>
+              <property Name="Cover Image" Alias="coverImage" SortOrder="10" TabAlias="umbraco-internal-general-properties">
+                <Description>No desc</Description>
+                <DataTypeAlias>uploader</DataTypeAlias>
+              </property>
+              <property Name="Content" Alias="content" SortOrder="10" TabAlias="umbraco-internal-general-properties">
+                <Description>No desc</Description>
+                <DataTypeAlias>richTextEditor</DataTypeAlias>
+              </property>
+            </properties>
+         </documentType>
+
+        <documentType Name="iBook Feed" Alias="iBookFeed">
+            <!--<tabs>
+                <tab Alias="uBlogsyTabContent" Name="Content" SortOrder="20"/>
+            </tabs>-->
+            <Description>No desc</Description>
+            <Icon>doc4.gif</Icon>
+            <Thumbnail>doc.png</Thumbnail>
+            <AllowedChildren></AllowedChildren>
+            <AllowedTemplates></AllowedTemplates>
+            <DefaultTemplate></DefaultTemplate>
+            <InheritedFrom></InheritedFrom>
+            <IsAbstract>True</IsAbstract>
+            <properties>
+
+                
+            </properties>
+        </documentType>
+
+    </documentTypes>
+</structure>
+
+
+
+

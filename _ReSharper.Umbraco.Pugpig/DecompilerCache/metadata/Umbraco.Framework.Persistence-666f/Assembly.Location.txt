@@ -1,0 +1,1 @@
+C:\Projects\UmbracoPupPigConnector\lib\Umbraco\Umbraco.Framework.Persistence.dll

@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbraco.Pugpig.Core.Tests", "src\Umbraco.Puppig.Core.Tests\Umbraco.Pugpig.Core.Tests.csproj", "{0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbraco.Pugpig.Web", "src\Umbraco.Pugpig.Web\Umbraco.Pugpig.Web.csproj", "{83FE8A5A-1313-4E9F-9766-69F827EAEBD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83FE8A5A-1313-4E9F-9766-69F827EAEBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83FE8A5A-1313-4E9F-9766-69F827EAEBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83FE8A5A-1313-4E9F-9766-69F827EAEBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83FE8A5A-1313-4E9F-9766-69F827EAEBD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

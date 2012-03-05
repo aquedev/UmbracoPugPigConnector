@@ -4,7 +4,7 @@ namespace Umbraco.Pugpig.Core.Models
 {
     public class Entry
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string Title { get; set; }
         public DateTime Updated { get; set; }
         public string AuthourName { get; set; }

@@ -1,5 +1,7 @@
 <Modules>
   <Module PersistentId="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3" ModuleId="Umbraco.Puppig.Core.Tests" />
   <Module PersistentId="BE0E65FC-3A00-474C-982A-CEABBB68BFC6" ModuleId="Umbraco.Pugpig.Core" />
-  <Module PersistentId="8029FBB3-2471-457C-8F11-0767956CA053" ModuleId="Umbraco.Pugpig.Web" />
+  <Module PersistentId="83FE8A5A-1313-4E9F-9766-69F827EAEBD8" ModuleId="Umbraco.Pugpig.Web" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="Umbraco.Framework" />
+  <Module PersistentId="Umbraco.Framework, Version=5.0.300.37504, Culture=neutral" ModuleId="Umbraco.Framework_1" />
 </Modules>

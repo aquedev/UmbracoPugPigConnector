@@ -19,7 +19,7 @@ namespace Umbraco.Pugpig.Core
         public XmlDocument GenerateXml(Feed feed)
         {
             var element = new XElement("feed",
-                                       new XElement("id", m_feedInfo.FeedId),
+                                       new XElement("id", m_feedInfo.PublicationName),
                                        GetLinkElement(),
                                        new XElement("title", feed.Title),
                                        new XElement("updated", feed.LastUpdated.ToString("yyyy-MM-ddTH:mm:sszzz")),

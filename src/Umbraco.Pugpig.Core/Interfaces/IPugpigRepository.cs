@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Umbraco.Framework;
 using Umbraco.Pugpig.Core.Models;
 
 namespace Umbraco.Pugpig.Core.Interfaces
 {
     public interface IPugpigRepository
     {
-        Feed CreateEditionList(Guid publicationId);
+        Feed CreateEditionList(string publicationName);
     }
 }

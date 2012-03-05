@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>0.0.1</version>
+    <authors>leec</authors>
+    <owners>Aqueduct</owners>
+    <projectUrl>http://www.aqueduct.co.uk</projectUrl>
+    <id>Umbraco.PugpigPlugin</id>
+    <title />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A plugin to allow you to publish your content to Apples iBooks using pugpig</description>
+    <summary>A plugin to allow you to publish your content to Apples iBooks using pugpig</summary>
+    <releaseNotes>Beta!</releaseNotes>
+  </metadata>
+  <files>
+    <file src="NugetHelpers\Content\Pugpig.cs.pp" target="content\App_Start\Pugpig.cs.pp" />
+    <file src="src\Umbraco.Pugpig.Web\bin\Umbraco.Pugpig.Core.dll" target="lib\Umbraco.Pugpig.Core.dll" />
+    <file src="src\Umbraco.Pugpig.Web\bin\Umbraco.Pugpig.Web.dll" target="lib\Umbraco.Pugpig.Web.dll" />
+    <file src="packages\WebActivator.1.5\lib\net40\WebActivator.dll" target="lib\WebActivator.dll" />
+    <file src="src\Umbraco.Pugpig.Web\Web.config" target="Web.config" />
+  </files>
+</package>

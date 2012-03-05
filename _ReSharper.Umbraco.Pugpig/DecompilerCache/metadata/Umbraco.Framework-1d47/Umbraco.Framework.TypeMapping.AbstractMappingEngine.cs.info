@@ -1,0 +1,43 @@
+R# version: 5.1.3000.12
+assembly Umbraco.Framework, Version=5.0.0.31826, Culture=neutral
+  file C:\Projects\UmbracoPupPigConnector\lib\Umbraco\Umbraco.Framework.dll mtime 1/11/2012 6:40:52 AM
+referenced assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll mtime 7/11/2011 10:35:44 AM
+referenced assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.configuration.dll mtime 3/18/2010 6:31:26 PM
+referenced assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll mtime 3/18/2010 6:31:26 PM
+referenced assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll mtime 3/18/2010 6:31:26 PM
+referenced assembly Remotion.Linq, Version=1.13.122.1, Culture=neutral, PublicKeyToken=fee00910d6e5f53b
+  file C:\Projects\UmbracoPupPigConnector\lib\Umbraco\Remotion.Linq.dll mtime 1/11/2012 5:40:46 PM
+referenced assembly System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  file C:\Projects\UmbracoPupPigConnector\lib\System.Web.Mvc.dll mtime 1/5/2011 4:42:16 PM
+  file C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 3\Assemblies\System.Web.Mvc.dll mtime 1/5/2011 4:42:16 PM
+referenced assembly System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Runtime.Caching.dll mtime 5/18/2011 6:19:06 PM
+referenced assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.dll mtime 3/18/2010 6:31:26 PM
+referenced assembly System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.Linq.dll mtime 3/18/2010 6:31:26 PM
+referenced assembly log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+  file C:\Projects\UmbracoPupPigConnector\lib\jolt\log4net.dll mtime 11/12/2009 8:49:20 AM
+  file C:\Projects\UmbracoPupPigConnector\lib\Umbraco\log4net.dll mtime 1/11/2012 5:40:46 PM
+referenced assembly Newtonsoft.Json.Net35, Version=4.0.2.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+  file C:\Projects\UmbracoPupPigConnector\lib\Umbraco\Newtonsoft.Json.Net35.dll mtime 1/11/2012 5:40:46 PM
+referenced assembly System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.Extensions.dll mtime 3/18/2010 6:31:26 PM
+referenced assembly System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.ComponentModel.DataAnnotations.dll mtime 3/18/2010 6:31:26 PM
+referenced assembly System.ComponentModel.Composition, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ComponentModel.Composition.dll mtime 3/18/2010 12:16:28 PM
+referenced assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll mtime 7/11/2011 10:35:44 AM
+referenced assembly Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.CSharp.dll mtime 3/18/2010 6:31:26 PM
+referenced assembly Dynamic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=68293a411f0cabcc
+  file C:\Projects\UmbracoPupPigConnector\lib\Umbraco\Dynamic.dll mtime 1/11/2012 5:40:48 PM
+referenced assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll mtime 3/18/2010 6:31:26 PM
+referenced assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll mtime 3/18/2010 6:31:26 PM

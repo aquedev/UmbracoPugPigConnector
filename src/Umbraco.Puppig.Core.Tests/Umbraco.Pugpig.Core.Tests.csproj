@@ -31,6 +31,42 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\..\lib\Umbraco\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc">
+      <HintPath>..\..\lib\Umbraco\Autofac.Integration.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core">
+      <HintPath>..\..\lib\Umbraco\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ClientDependency.Core">
+      <HintPath>..\..\lib\Umbraco\ClientDependency.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ClientDependency.Core.Mvc">
+      <HintPath>..\..\lib\Umbraco\ClientDependency.Core.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="DataAnnotationsExtensions">
+      <HintPath>..\..\lib\Umbraco\DataAnnotationsExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DataAnnotationsExtensions.ClientValidation">
+      <HintPath>..\..\lib\Umbraco\DataAnnotationsExtensions.ClientValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="Dynamic">
+      <HintPath>..\..\lib\Umbraco\Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate">
+      <HintPath>..\..\lib\Umbraco\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="HibernatingRhinos.Profiler.Appender.v4.0">
+      <HintPath>..\..\lib\Umbraco\HibernatingRhinos.Profiler.Appender.v4.0.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlDiff">
+      <HintPath>..\..\lib\Umbraco\HtmlDiff.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\..\lib\Umbraco\Iesi.Collections.dll</HintPath>
+    </Reference>
     <Reference Include="Jolt">
       <HintPath>..\..\lib\jolt\Jolt.dll</HintPath>
     </Reference>
@@ -46,8 +82,27 @@
     <Reference Include="log4net">
       <HintPath>..\..\lib\jolt\log4net.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Web.Mvc">
+      <HintPath>..\..\lib\Umbraco\Microsoft.Web.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Moq">
       <HintPath>..\..\packages\Moq.4.0.10827\lib\NET40\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Net35">
+      <HintPath>..\..\lib\Umbraco\Newtonsoft.Json.Net35.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\lib\Umbraco\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.Castle">
+      <HintPath>..\..\lib\Umbraco\NHibernate.ByteCode.Castle.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Caches.SysCache2">
+      <HintPath>..\..\lib\Umbraco\NHibernate.Caches.SysCache2.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Core, Version=1.0.11220.104, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Umbraco\NuGet.Core.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -56,13 +111,58 @@
     <Reference Include="QuickGraph">
       <HintPath>..\..\lib\jolt\QuickGraph.dll</HintPath>
     </Reference>
+    <Reference Include="Remotion.Linq">
+      <HintPath>..\..\lib\Umbraco\Remotion.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="RouteDebugger">
+      <HintPath>..\..\lib\Umbraco\RouteDebugger.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Umbraco\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="Umbraco.Cms.Web">
+      <HintPath>..\..\lib\Umbraco\Umbraco.Cms.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Cms.Web.EmbeddedViewEngine">
+      <HintPath>..\..\lib\Umbraco\Umbraco.Cms.Web.EmbeddedViewEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Cms.Web.UI">
+      <HintPath>..\..\lib\Umbraco\Umbraco.Cms.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Framework">
+      <HintPath>..\..\lib\Umbraco\Umbraco.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Framework.DependencyManagement.Autofac">
+      <HintPath>..\..\lib\Umbraco\Umbraco.Framework.DependencyManagement.Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Framework.Persistence">
+      <HintPath>..\..\lib\Umbraco\Umbraco.Framework.Persistence.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Framework.Persistence.NHibernate">
+      <HintPath>..\..\lib\Umbraco\Umbraco.Framework.Persistence.NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Framework.Security">
+      <HintPath>..\..\lib\Umbraco\Umbraco.Framework.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Hive">
+      <HintPath>..\..\lib\Umbraco\Umbraco.Hive.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Hive.Providers.IO">
+      <HintPath>..\..\lib\Umbraco\Umbraco.Hive.Providers.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Hive.Providers.Membership">
+      <HintPath>..\..\lib\Umbraco\Umbraco.Hive.Providers.Membership.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ControllerTests.cs" />
@@ -76,6 +176,10 @@
     <ProjectReference Include="..\Umbraco.Pugpig.Core\Umbraco.Pugpig.Core.csproj">
       <Project>{BE0E65FC-3A00-474C-982A-CEABBB68BFC6}</Project>
       <Name>Umbraco.Pugpig.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Umbraco.Pugpig.Web\Umbraco.Pugpig.Web.csproj">
+      <Project>{83FE8A5A-1313-4E9F-9766-69F827EAEBD8}</Project>
+      <Name>Umbraco.Pugpig.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
