@@ -38,77 +38,12 @@ namespace Umbraco.Pugpig.Core.Controllers
             FrameworkContext = requestContext.Application.Hive.FrameworkContext;
         }
 
-        //public InitContentSurfaceController(IHiveManager hiveManager)
-        //{
-           
-        //}
          public ActionResult InstallPugpigData()
          {
              m_pugpigDataSet.InstallDevDataset(Hive, FrameworkContext);
-             return Content("Done");
+             return Content("All content types have ben installed. We even set up a demo publication for you! Go check your content tree. :) ");
          }
 
-        public ActionResult Index(string documentTypeAlias, string nodeName, string parentId)
-        {
-            DocumentTypeEditorModel = GetDocumentType(documentTypeAlias);
-
-            var parentHiveId = string.IsNullOrEmpty(parentId) ? FixedHiveIds.ContentVirtualRoot : new HiveId(new Guid(parentId));
-
-            var nameProperty = SetProperty(NodeNameAttributeDefinition.AliasValue, new Dictionary<string, object> { { "Name", nodeName } });
-
-            var shortDescriptionProperty = SetProperty("ShortDescription", "bla");
-            var fullDescriptionProperty = SetProperty("FullDescription", 15);
-
-            var properties = new HashSet<ContentProperty> { nameProperty, shortDescriptionProperty, fullDescriptionProperty };
-
-            var contentNode = new ContentEditorModel
-            {
-                DocumentTypeId = DocumentTypeEditorModel.Id,
-                DocumentTypeAlias = documentTypeAlias,
-                ParentId = parentHiveId,
-                Properties = new HashSet<ContentProperty>(properties)
-            };
-
-            var contentRepository = new List<ContentEditorModel> { contentNode };
-
-            using (var writer = Hive.OpenWriter<IContentStore>())
-            {
-                var mappedCollection = FrameworkContext.TypeMappers.Map<IEnumerable<ContentEditorModel>, IEnumerable<Revision<TypedEntity>>>(contentRepository).ToArray();
-                mappedCollection.ForEach(x => x.MetaData.StatusType = FixedStatusTypes.Published);
-
-                writer.Repositories.Revisions.AddOrUpdate(mappedCollection);
-                writer.Complete();
-            }
-
-            return Content("Done");
-        }
-
-        private ContentProperty SetProperty(string propertyAlias, object propertyValue)
-        {
-            var docTypeProperty = DocumentTypeEditorModel.Properties.Single(x => x.Alias == propertyAlias);
-
-            //NOTE: If the Umbraco API changes (an extra overload is added to new ContentProperty), this might break
-            var dictionary = propertyValue as IDictionary<string, object> ?? new Dictionary<string, object> { { "Value", propertyValue } };
-
-            var property = new ContentProperty(docTypeProperty.Id, docTypeProperty, dictionary)
-            {
-                Alias = propertyAlias,
-                TabId = DocumentTypeEditorModel.DefinedTabs.Single(x => x.Alias == FixedGroupDefinitions.GeneralGroup.Alias).Id
-            };
-
-            return property;
-        }
-
-        private DocumentTypeEditorModel GetDocumentType(string documentTypeAlias)
-        {
-            EntitySchema categorySchema;
-            using (var uow = Hive.OpenReader<IContentStore>())
-            {
-                categorySchema = uow.Repositories.Schemas.GetAll<EntitySchema>().Single(x => x.Alias == documentTypeAlias);
-            }
-
-            return FrameworkContext.TypeMappers.Map<DocumentTypeEditorModel>(categorySchema);
-        }
 
         public override ActionResult Edit(HiveId? id)
         {

@@ -1,5 +1,4 @@
-﻿using Umbraco.Framework;
-using Umbraco.Pugpig.Core.Models;
+﻿using Umbraco.Pugpig.Core.Models;
 
 namespace Umbraco.Pugpig.Core.Interfaces
 {
