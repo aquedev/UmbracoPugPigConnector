@@ -41,7 +41,6 @@ namespace Umbraco.Pugpig.Core.Repositories
              
             foreach (var edition in editions)
             {
-                string imageId = edition.DynamicField(ContentFields.COVER_IMAGE);
                 var imageUrl = umbracoHelper.GetMediaUrl(edition.Id, "coverImage");
                 feed.Entries.Add(new Entry()
                                      {
