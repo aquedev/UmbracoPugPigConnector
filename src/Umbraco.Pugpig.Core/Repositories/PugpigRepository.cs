@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using Umbraco.Cms.Web;
 using Umbraco.Cms.Web.Context;
 using System.Linq;
+using Umbraco.Cms.Web.Model;
 using Umbraco.Framework;
+using Umbraco.Framework.Diagnostics;
 using Umbraco.Pugpig.Core.Interfaces;
 using Umbraco.Pugpig.Core.Models;
 
@@ -11,6 +13,7 @@ namespace Umbraco.Pugpig.Core.Repositories
 {
     public static class ContentFields
     {
+        public const string COVER_IMAGE = "coverImage";
         public const string SUMMARY = "summary";
         public const string AUTHOUR_NAME = "authorName";
         public const string TITLE = "title";
@@ -28,23 +31,30 @@ namespace Umbraco.Pugpig.Core.Repositories
         public Feed CreateEditionList(string publicationName)
         {
             var editions = m_context.Application.Hive.QueryContent()
-                .Where(x => x.ContentType.Alias == "edition")
-                .Where(x => x.ParentContent().Name == publicationName)
+                .Where(x => x.ContentType.Alias == "iBookEdition")
+               // .Where(x => x.ParentContent(). == publicationName)
                 .ToList();
-            
+             LogHelper.TraceIfEnabled<PugpigRepository>("We found {0} editions for {1}.",() => editions.Count, () => publicationName);       
+
             Feed feed = new Feed();
             feed.Entries = new List<Entry>();
              
             foreach (var edition in editions)
             {
+                string imageId = edition.DynamicField(ContentFields.COVER_IMAGE);
+
+                //var media = m_context.Application.Hive.QueryMedia().Where(
+                //    x => x.Id == new HiveId(new Uri(imageId))).First();
+
+               // media.
                 feed.Entries.Add(new Entry()
                                      {
                                          AuthourName = edition.DynamicField(ContentFields.AUTHOUR_NAME),
                                          Id = edition.Id.ToFriendlyString(),
                                          Summary = edition.DynamicField(ContentFields.SUMMARY),
                                          Title = edition.DynamicField(ContentFields.TITLE),
-                                         Updated = DateTime.Now
-                    //Image = 
+                                         Updated = DateTime.Now,
+                                         Image = new Image() {Url = "aa.jpg"}
 
                 });
             }

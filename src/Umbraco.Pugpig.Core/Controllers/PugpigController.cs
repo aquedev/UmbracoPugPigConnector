@@ -3,6 +3,7 @@ using System.Xml;
 using Umbraco.Cms.Web.Mvc.Controllers;
 using Umbraco.Cms.Web.Surface;
 using Umbraco.Framework;
+using Umbraco.Framework.Diagnostics;
 using Umbraco.Pugpig.Core.Interfaces;
 using Umbraco.Pugpig.Core.Settings;
 
@@ -32,10 +33,11 @@ namespace Umbraco.Pugpig.Core.Controllers
             m_abstractRequest = abstractRequest;
         }
 
-        public XmlDocument Editions(string publicationName)
+        public XmlResult Editions(string publicationName)
         {
+            LogHelper.TraceIfEnabled<PugpigSurfaceController>("The edition passed into the controller was {0}.", () => publicationName);       
             CreaterFormatter(publicationName);
-            return m_xmlFormatter.GenerateXml(m_pugpigRepository.CreateEditionList(publicationName));
+            return new XmlResult(m_xmlFormatter.GenerateXml(m_pugpigRepository.CreateEditionList(publicationName)));
         }
 
         private void CreaterFormatter(string publicationName)

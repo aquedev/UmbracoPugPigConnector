@@ -70,12 +70,12 @@
     <Compile Include="Controllers\ContentInstaller.cs" />
     <Compile Include="Controllers\IAbstractRequest.cs" />
     <Compile Include="Controllers\PugpigController.cs" />
+    <Compile Include="Controllers\XmlResult.cs" />
     <Compile Include="Domain\Publication.cs" />
     <Compile Include="Installers\CoreFakeCmsData.cs" />
     <Compile Include="Installers\Files.Designer.cs" />
     <Compile Include="Installers\ImportHelper.cs" />
     <Compile Include="Installers\PugpigDataSet.cs" />
-    <Compile Include="Installers\PugpigInstallTask.cs" />
     <Compile Include="Interfaces\IFeedSettings.cs" />
     <Compile Include="Interfaces\IPugpigRepository.cs" />
     <Compile Include="Interfaces\IXmlFormatter.cs" />

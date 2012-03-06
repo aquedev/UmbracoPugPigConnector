@@ -20,7 +20,7 @@ namespace Umbraco.Pugpig.Core
         {
             var element = new XElement("feed",
                                        new XElement("id", m_feedInfo.PublicationName),
-                                       GetLinkElement(),
+                                       GetLinkElement(m_feedInfo.PublicationName),
                                        new XElement("title", feed.Title),
                                        new XElement("updated", feed.LastUpdated.ToString("yyyy-MM-ddTH:mm:sszzz")),
                                        GetEntries(feed.Entries));
@@ -34,12 +34,12 @@ namespace Umbraco.Pugpig.Core
             return xmlDoc;
         }
 
-        private XElement GetLinkElement()
+        private XElement GetLinkElement(string publicatinName)
         {
             XElement link = new XElement("link");
             link.SetAttributeValue("rel", "self");
             link.SetAttributeValue("type", "application/atom+xml;profile=opds-catalog;kind=acquisition");
-            link.SetAttributeValue("href", String.Concat("http://", m_feedInfo.BaseUrl, "/pugpig/editions.xml"));
+            link.SetAttributeValue("href", String.Concat(m_feedInfo.BaseUrl, "/umbraco/pugpig/pugpigSurface/editions/",publicatinName));
             return link;
         }
 
