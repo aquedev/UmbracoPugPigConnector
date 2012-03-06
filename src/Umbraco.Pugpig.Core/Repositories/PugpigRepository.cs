@@ -28,7 +28,7 @@ namespace Umbraco.Pugpig.Core.Repositories
             m_context = context;
         }
 
-        public Feed CreateEditionList(string publicationName)
+        public Feed CreateEditionList(string publicationName, UmbracoHelper umbracoHelper)
         {
             var editions = m_context.Application.Hive.QueryContent()
                 .Where(x => x.ContentType.Alias == "iBookEdition")
@@ -42,11 +42,7 @@ namespace Umbraco.Pugpig.Core.Repositories
             foreach (var edition in editions)
             {
                 string imageId = edition.DynamicField(ContentFields.COVER_IMAGE);
-
-                //var media = m_context.Application.Hive.QueryMedia().Where(
-                //    x => x.Id == new HiveId(new Uri(imageId))).First();
-
-               // media.
+                var imageUrl = umbracoHelper.GetMediaUrl(edition.Id, "coverImage");
                 feed.Entries.Add(new Entry()
                                      {
                                          AuthourName = edition.DynamicField(ContentFields.AUTHOUR_NAME),
@@ -54,7 +50,7 @@ namespace Umbraco.Pugpig.Core.Repositories
                                          Summary = edition.DynamicField(ContentFields.SUMMARY),
                                          Title = edition.DynamicField(ContentFields.TITLE),
                                          Updated = DateTime.Now,
-                                         Image = new Image() {Url = "aa.jpg"}
+                                         Image = new Image() {Url = imageUrl}
 
                 });
             }

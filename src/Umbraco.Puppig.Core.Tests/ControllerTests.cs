@@ -19,7 +19,7 @@ namespace Umbraco.Pugpig.Core.Tests
         public void Setup()
         {
             m_pugpigRepository = new Mock<IPugpigRepository>();
-            m_pugpigRepository.Setup(x => x.CreateEditionList(It.IsAny<string>())).Returns(new Feed());
+            m_pugpigRepository.Setup(x => x.CreateEditionList(It.IsAny<string>(),null)).Returns(new Feed());
         }
 
         public void PupgpigController_RenderEditionList()
