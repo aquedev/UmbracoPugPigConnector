@@ -35,6 +35,9 @@
       <Private>True</Private>
       <HintPath>..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
+    <Reference Include="Moq">
+      <HintPath>..\..\packages\Moq.4.0.10827\lib\NET40\Moq.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.configuration" />
@@ -71,14 +74,20 @@
     <Compile Include="Controllers\IAbstractRequest.cs" />
     <Compile Include="Controllers\PugpigController.cs" />
     <Compile Include="Controllers\XmlResult.cs" />
+    <Compile Include="EditionXmlFormatter.cs" />
     <Compile Include="Domain\Publication.cs" />
     <Compile Include="Installers\CoreFakeCmsData.cs" />
     <Compile Include="Installers\Files.Designer.cs" />
     <Compile Include="Installers\ImportHelper.cs" />
     <Compile Include="Installers\PugpigDataSet.cs" />
+    <Compile Include="Models\Book.cs" />
+    <Compile Include="Models\Page.cs" />
+    <Compile Include="Settings\BookSettings.cs" />
+    <Compile Include="Interfaces\IAcquisitionXmlFormatter.cs" />
+    <Compile Include="Interfaces\IBookSettings.cs" />
     <Compile Include="Interfaces\IFeedSettings.cs" />
     <Compile Include="Interfaces\IPugpigRepository.cs" />
-    <Compile Include="Interfaces\IXmlFormatter.cs" />
+    <Compile Include="Interfaces\IEditionXmlFormatter.cs" />
     <Compile Include="Models\Entry.cs" />
     <Compile Include="Models\Feed.cs" />
     <Compile Include="Models\Image.cs" />
@@ -86,7 +95,7 @@
     <Compile Include="PugpigBuilder.cs" />
     <Compile Include="Repositories\PugpigRepository.cs" />
     <Compile Include="Settings\FeedSettings.cs" />
-    <Compile Include="XMLFormatter.cs" />
+    <Compile Include="AcquisitionXmlFormatter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Installers\umbraco.config" />

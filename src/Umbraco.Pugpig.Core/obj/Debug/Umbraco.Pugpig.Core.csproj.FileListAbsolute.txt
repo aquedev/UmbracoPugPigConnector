@@ -33,3 +33,6 @@ C:\Projects\UmbracoPupPigConnector\src\Umbraco.Pugpig.Core\obj\Debug\GenerateRes
 C:\Projects\UmbracoPupPigConnector\src\Umbraco.Pugpig.Core\obj\Debug\GenerateResource.write.1.tlog
 C:\Projects\UmbracoPupPigConnector\src\Umbraco.Pugpig.Core\obj\Debug\Umbraco.Pugpig.Core.dll
 C:\Projects\UmbracoPupPigConnector\src\Umbraco.Pugpig.Core\obj\Debug\Umbraco.Pugpig.Core.pdb
+C:\Projects\UmbracoPupPigConnector\src\Umbraco.Pugpig.Core\bin\Debug\Moq.dll
+C:\Projects\UmbracoPupPigConnector\src\Umbraco.Pugpig.Core\bin\Debug\Moq.pdb
+C:\Projects\UmbracoPupPigConnector\src\Umbraco.Pugpig.Core\bin\Debug\Moq.xml

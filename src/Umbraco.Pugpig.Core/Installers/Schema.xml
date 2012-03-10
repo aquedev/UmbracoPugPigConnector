@@ -38,12 +38,29 @@
                 <Description>No desc</Description>
                 <DataTypeAlias>uploader</DataTypeAlias>
               </property>
-              <property Name="Content" Alias="content" SortOrder="10" TabAlias="umbraco-internal-general-properties">
+              <property Name="CacheManifest" Alias="cacheManifest" SortOrder="10" TabAlias="umbraco-internal-general-properties">
                 <Description>No desc</Description>
-                <DataTypeAlias>richTextEditor</DataTypeAlias>
+                <DataTypeAlias>multiLineTextBox</DataTypeAlias>
               </property>
             </properties>
          </documentType>
+
+      <documentType Name="iBookPage" Alias="iBookPage">
+        <Description>Represents iBookPage</Description>
+        <Icon>doc.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <AllowedChildren></AllowedChildren>
+        <AllowedTemplates></AllowedTemplates>
+        <DefaultTemplate></DefaultTemplate>
+        <InheritedFrom></InheritedFrom>
+        <IsAbstract>True</IsAbstract>
+        <properties>
+          <property Name="ContentUrl" Alias="contentUrl" SortOrder="10" TabAlias="umbraco-internal-general-properties">
+            <Description>No desc</Description>
+            <DataTypeAlias>singleLineTextBox</DataTypeAlias>
+          </property>
+        </properties>
+      </documentType>
 
         <documentType Name="iBook Feed" Alias="iBookFeed">
             <!--<tabs>

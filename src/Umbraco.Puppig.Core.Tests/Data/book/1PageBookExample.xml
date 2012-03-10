@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:app="http://www.w3.org/2007/app">
+  <id>tag:books.pugpig.com,2011-08:jasmina</id>
+  <link rel="self" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="http://books.pugpig.com/BOOKJASMINA/atom.xml"/>
+  <title>Jasmina's Giraffe</title>
+  <updated>2011-08-16T16:00:51+01:00</updated>
+  <author>
+    <name>Andrew Harrison</name>
+  </author>
+  <entry>
+    <title>Cover page</title>
+    <id>tag:books.pugpig.com,2011-08:jasmina:0</id>
+    <updated>2011-08-16T16:00:51+01:00</updated>
+    <published>2011-08-16T16:00:51+01:00</published>
+    <summary></summary>
+    <link rel="alternate" type="text/html" href="00.html"/>
+    <link rel="related" type="text/cache-manifest" href="jasmina.manifest"/>
+  </entry>
+  <entry>
+    <title>Page 1</title>
+    <id>tag:books.pugpig.com,2011-08:jasmina:1</id>
+    <updated>2011-08-16T16:00:51+01:00</updated>
+    <published>2011-08-16T16:00:51+01:00</published>
+    <summary></summary>
+    <link rel="alternate" type="text/html" href="01.html"/>
+    <link rel="related" type="text/cache-manifest" href="jasmina.manifest"/>
+  </entry>
+  <entry>
+    <title>Page 2</title>
+    <id>tag:books.pugpig.com,2011-08:jasmina:2</id>
+    <updated>2011-08-16T16:00:51+01:00</updated>
+    <published>2011-08-16T16:00:51+01:00</published>
+    <summary></summary>
+    <link rel="alternate" type="text/html" href="02.html"/>
+    <link rel="related" type="text/cache-manifest" href="jasmina.manifest"/>
+  </entry>
+  <entry>
+    <title>Page 3</title>
+    <id>tag:books.pugpig.com,2011-08:jasmina:3</id>
+    <updated>2011-08-16T16:00:51+01:00</updated>
+    <published>2011-08-16T16:00:51+01:00</published>
+    <summary></summary>
+    <link rel="alternate" type="text/html" href="03.html"/>
+    <link rel="related" type="text/cache-manifest" href="jasmina.manifest"/>
+  </entry>
+  <entry>
+    <title>Page 4</title>
+    <id>tag:books.pugpig.com,2011-08:jasmina:4</id>
+    <updated>2011-08-16T16:00:51+01:00</updated>
+    <published>2011-08-16T16:00:51+01:00</published>
+    <summary></summary>
+    <link rel="alternate" type="text/html" href="04.html"/>
+    <link rel="related" type="text/cache-manifest" href="jasmina.manifest"/>
+  </entry>
+  <entry>
+    <title>Page 5</title>
+    <id>tag:books.pugpig.com,2011-08:jasmina:5</id>
+    <updated>2011-08-16T16:00:51+01:00</updated>
+    <published>2011-08-16T16:00:51+01:00</published>
+    <summary></summary>
+    <link rel="alternate" type="text/html" href="05.html"/>
+    <link rel="related" type="text/cache-manifest" href="jasmina.manifest"/>
+  </entry>
+  <entry>
+    <title>Page 6</title>
+    <id>tag:books.pugpig.com,2011-08:jasmina:6</id>
+    <updated>2011-08-16T16:00:51+01:00</updated>
+    <published>2011-08-16T16:00:51+01:00</published>
+    <summary></summary>
+    <link rel="alternate" type="text/html" href="06.html"/>
+    <link rel="related" type="text/cache-manifest" href="jasmina.manifest"/>
+  </entry>
+  <entry>
+    <title>Page 7</title>
+    <id>tag:books.pugpig.com,2011-08:jasmina:7</id>
+    <updated>2011-08-16T16:00:51+01:00</updated>
+    <published>2011-08-16T16:00:51+01:00</published>
+    <summary></summary>
+    <link rel="alternate" type="text/html" href="07.html"/>
+    <link rel="related" type="text/cache-manifest" href="jasmina.manifest"/>
+  </entry>
+  <entry>
+    <title>Page 8</title>
+    <id>tag:books.pugpig.com,2011-08:jasmina:8</id>
+    <updated>2011-08-16T16:00:51+01:00</updated>
+    <published>2011-08-16T16:00:51+01:00</published>
+    <summary></summary>
+    <link rel="alternate" type="text/html" href="08.html"/>
+    <link rel="related" type="text/cache-manifest" href="jasmina.manifest"/>
+  </entry>
+  <entry>
+    <title>Page 9</title>
+    <id>tag:books.pugpig.com,2011-08:jasmina:9</id>
+    <updated>2011-08-16T16:00:51+01:00</updated>
+    <published>2011-08-16T16:00:51+01:00</published>
+    <summary></summary>
+    <link rel="alternate" type="text/html" href="09.html"/>
+    <link rel="related" type="text/cache-manifest" href="jasmina.manifest"/>
+  </entry>
+  <entry>
+    <title>Page 10</title>
+    <id>tag:books.pugpig.com,2011-08:jasmina:10</id>
+    <updated>2011-08-16T16:00:51+01:00</updated>
+    <published>2011-08-16T16:00:51+01:00</published>
+    <summary></summary>
+    <link rel="alternate" type="text/html" href="10.html"/>
+    <link rel="related" type="text/cache-manifest" href="jasmina.manifest"/>
+  </entry>
+  <entry>
+    <title>Page 11</title>
+    <id>tag:books.pugpig.com,2011-08:jasmina:11</id>
+    <updated>2011-08-16T16:00:51+01:00</updated>
+    <published>2011-08-16T16:00:51+01:00</published>
+    <summary></summary>
+    <link rel="alternate" type="text/html" href="11.html"/>
+    <link rel="related" type="text/cache-manifest" href="jasmina.manifest"/>
+  </entry>
+  <entry>
+    <title>Page 12</title>
+    <id>tag:books.pugpig.com,2011-08:jasmina:12</id>
+    <updated>2011-08-16T16:00:51+01:00</updated>
+    <published>2011-08-16T16:00:51+01:00</published>
+    <summary></summary>
+    <link rel="alternate" type="text/html" href="12.html"/>
+    <link rel="related" type="text/cache-manifest" href="jasmina.manifest"/>
+  </entry>
+  <entry>
+    <title>Back Cover</title>
+    <id>tag:books.pugpig.com,2011-08:jasmina:13</id>
+    <updated>2011-08-16T16:00:51+01:00</updated>
+    <published>2011-08-16T16:00:51+01:00</published>
+    <summary></summary>
+    <link rel="alternate" type="text/html" href="13.html"/>
+    <link rel="related" type="text/cache-manifest" href="jasmina.manifest"/>
+  </entry>
+</feed>
+

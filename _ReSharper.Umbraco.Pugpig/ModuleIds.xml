@@ -4,4 +4,6 @@
   <Module PersistentId="83FE8A5A-1313-4E9F-9766-69F827EAEBD8" ModuleId="Umbraco.Pugpig.Web" />
   <Module PersistentId="d:Miscellaneous Files" ModuleId="Umbraco.Framework" />
   <Module PersistentId="Umbraco.Cms.Web, Version=5.0.300.37545, Culture=neutral" ModuleId="Umbraco.Cms.Web" />
+  <Module PersistentId="Umbraco.Framework, Version=5.0.300.37504, Culture=neutral" ModuleId="Umbraco.Framework_1" />
+  <Module PersistentId="System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Xml.Linq" />
 </Modules>

@@ -166,7 +166,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ControllerTests.cs" />
-    <Compile Include="XmlFormattingTests.cs" />
+    <Compile Include="XmlAcquisitionFormattingTests.cs" />
+    <Compile Include="XmlEditionFormattingTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -191,6 +192,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Data\3Edition.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\book\1PageBookExample.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

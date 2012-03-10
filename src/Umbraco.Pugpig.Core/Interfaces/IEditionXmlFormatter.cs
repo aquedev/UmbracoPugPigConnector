@@ -3,7 +3,7 @@ using Umbraco.Pugpig.Core.Models;
 
 namespace Umbraco.Pugpig.Core.Interfaces
 {
-    public interface IXmlFormatter
+    public interface IEditionXmlFormatter
     {
         XmlDocument GenerateXml(Feed feed);
     }

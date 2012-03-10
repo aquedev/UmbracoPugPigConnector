@@ -13,6 +13,7 @@ namespace Umbraco.Pugpig.Core.Repositories
 {
     public static class ContentFields
     {
+        public const string PAGE_URL = "contentUrl";
         public const string COVER_IMAGE = "coverImage";
         public const string SUMMARY = "summary";
         public const string AUTHOUR_NAME = "authorName";
@@ -30,10 +31,14 @@ namespace Umbraco.Pugpig.Core.Repositories
 
         public Feed CreateEditionList(string publicationName, UmbracoHelper umbracoHelper)
         {
+            var parentName = m_context.Application.Hive.QueryContent()
+                .Where(x => x.ContentType.Alias == "iBookEdition").First().ParentContent().Name;
+
             var editions = m_context.Application.Hive.QueryContent()
                 .Where(x => x.ContentType.Alias == "iBookEdition")
-               // .Where(x => x.ParentContent(). == publicationName)
                 .ToList();
+            editions = editions.Where(x => x.ParentContent().Name == publicationName).ToList();
+
              LogHelper.TraceIfEnabled<PugpigRepository>("We found {0} editions for {1}.",() => editions.Count, () => publicationName);       
 
             Feed feed = new Feed();
@@ -47,7 +52,7 @@ namespace Umbraco.Pugpig.Core.Repositories
                                          AuthourName = edition.DynamicField(ContentFields.AUTHOUR_NAME),
                                          Id = edition.Id.ToFriendlyString(),
                                          Summary = edition.DynamicField(ContentFields.SUMMARY),
-                                         Title = edition.DynamicField(ContentFields.TITLE),
+                                         Title = edition.Name,
                                          Updated = DateTime.Now,
                                          Image = new Image() {Url = imageUrl}
 
@@ -55,6 +60,29 @@ namespace Umbraco.Pugpig.Core.Repositories
             }
 
             return feed;
+        }
+
+        public Book CreateBookList(string bookName, string publicationName, UmbracoHelper umbracoHelper)
+        {
+            var pages = m_context.Application.Hive.QueryContent()
+                .Where(x => x.ContentType.Alias == "iBookPage")
+                
+                .ToList();
+
+            pages = pages.Where(x => x.ParentContent().Name == bookName).ToList();
+            LogHelper.TraceIfEnabled<PugpigRepository>("We found {0} editions for {1}.", () => pages.Count, () => bookName);
+
+            Book book = new Book();
+            book.LastUpdated = DateTime.Now;
+            book.Pages = new List<Page>();
+            book.Title = bookName;
+            foreach (var content in pages)
+            {
+                Page page = new Page();
+                page.PageUrl = content.DynamicField(ContentFields.PAGE_URL);
+                book.Pages.Add(page);
+            }
+            return book;
         }
     }
 }

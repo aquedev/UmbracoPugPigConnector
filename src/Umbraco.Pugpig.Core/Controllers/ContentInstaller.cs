@@ -1,23 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web.Mvc;
 using Umbraco.Cms.Web.Context;
 using Umbraco.Cms.Web.DependencyManagement;
 using Umbraco.Cms.Web.Editors;
 using Umbraco.Cms.Web.Model.BackOffice.Editors;
-using Umbraco.Cms.Web.Mvc.Controllers;
-using Umbraco.Cms.Web.Surface;
 using Umbraco.Framework;
 using Umbraco.Framework.Context;
 using Umbraco.Framework.Persistence;
-using Umbraco.Framework.Persistence.Model;
-using Umbraco.Framework.Persistence.Model.Attribution.MetaData;
-using Umbraco.Framework.Persistence.Model.Constants;
-using Umbraco.Framework.Persistence.Model.Constants.AttributeDefinitions;
-using Umbraco.Framework.Persistence.Model.Versioning;
 using Umbraco.Hive;
-using Umbraco.Hive.RepositoryTypes;
 using Umbraco.Pugpig.Core.Installers;
 
 namespace Umbraco.Pugpig.Core.Controllers

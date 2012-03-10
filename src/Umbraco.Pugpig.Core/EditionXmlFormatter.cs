@@ -7,11 +7,11 @@ using Umbraco.Pugpig.Core.Models;
 
 namespace Umbraco.Pugpig.Core
 {
-    public class XmlFormatter : IXmlFormatter
+    public class EditionXmlFormatter : IEditionXmlFormatter
     {
         private readonly IFeedSettings m_feedInfo;
 
-        public XmlFormatter(IFeedSettings feedInfo)
+        public EditionXmlFormatter(IFeedSettings feedInfo)
         {
             m_feedInfo = feedInfo;
         }
@@ -89,7 +89,7 @@ namespace Umbraco.Pugpig.Core
             var editionUrl = new XElement("link");
             editionUrl.SetAttributeValue("rel", "alternate");
             editionUrl.SetAttributeValue("type", "application/atom+xml");
-            editionUrl.SetAttributeValue("href", String.Concat("/pugpig/edition-", entry.Id, ".xml"));
+            editionUrl.SetAttributeValue("href", String.Format("/umbraco/pugpig/PugpigSurface/Acquisition?publicationName={0}&edition={1}", m_feedInfo.PublicationName, entry.Title));
             return editionUrl;
         }
 
@@ -98,7 +98,8 @@ namespace Umbraco.Pugpig.Core
             var editionUrl = new XElement("link");
             editionUrl.SetAttributeValue("rel", "http://opds-spec.org/acquisition");
             editionUrl.SetAttributeValue("type", "application/atom+xml");
-            editionUrl.SetAttributeValue("href", String.Concat("/pugpig/edition-", entry.Id, ".xml"));
+            editionUrl.SetAttributeValue("href", String.Format("/umbraco/pugpig/PugpigSurface/Acquisition?publicationName={0}&edition={1}", m_feedInfo.PublicationName, entry.Title));
+
             return editionUrl;
         }
 

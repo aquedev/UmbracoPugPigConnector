@@ -12,7 +12,7 @@ using Umbraco.Pugpig.Core.Models;
 namespace Umbraco.Pugpig.Core.Tests
 {
     [TestFixture]
-    public class XmlFormattingTests
+    public class XmlEditionFormattingTests
     {
         private readonly Mock<IFeedSettings> m_settings = new Mock<IFeedSettings>();
 
@@ -28,7 +28,7 @@ namespace Umbraco.Pugpig.Core.Tests
         {
             var feed = GetFeed(0);
 
-            XmlDocument doc = new XmlFormatter(m_settings.Object).GenerateXml(feed);
+            XmlDocument doc = new EditionXmlFormatter(m_settings.Object).GenerateXml(feed);
 
             Assert.IsNotNull(doc);
             var reader = new XmlTextReader(new StringReader(doc.OuterXml));
@@ -43,7 +43,7 @@ namespace Umbraco.Pugpig.Core.Tests
         {
             var feed = GetFeed(1);
 
-            XmlDocument doc = new XmlFormatter(m_settings.Object).GenerateXml(feed);
+            XmlDocument doc = new EditionXmlFormatter(m_settings.Object).GenerateXml(feed);
 
             Assert.IsNotNull(doc);
             var reader = new XmlTextReader(new StringReader(doc.OuterXml));
@@ -60,7 +60,7 @@ namespace Umbraco.Pugpig.Core.Tests
         {
             var feed = GetFeed(NumberOfEditions);
 
-            XmlDocument doc = new XmlFormatter(m_settings.Object).GenerateXml(feed);
+            XmlDocument doc = new EditionXmlFormatter(m_settings.Object).GenerateXml(feed);
 
             Assert.IsNotNull(doc);
             var reader = new XmlTextReader(new StringReader(doc.OuterXml));
