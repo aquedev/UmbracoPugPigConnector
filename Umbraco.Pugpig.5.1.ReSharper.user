@@ -11,67 +11,67 @@
     <ItemStatistics item="Default">
       <Item value="Tests" priority="1" />
       <Item value="void" priority="1" />
-      <Item value="public" priority="11" />
+      <Item value="public" priority="18" />
       <Item value="XmlNodeList`0" priority="1" />
       <Item value="entries" priority="2" />
-      <Item value="return" priority="11" />
-      <Item value="new" priority="34" />
+      <Item value="return" priority="15" />
+      <Item value="new" priority="45" />
       <Item value="XmlDocument" priority="0" />
       <Item value="List&lt;Entry&gt;" priority="1" />
       <Item value="List&lt;XElement&gt;" priority="1" />
       <Item value="feedInfo" priority="1" />
-      <Item value="string" priority="10" />
+      <Item value="string" priority="25" />
       <Item value="interface" priority="0" />
       <Item value="XName" priority="1" />
       <Item value="element" priority="0" />
       <Item value="xmlDoc" priority="0" />
       <Item value="SetUpAttribute`0" priority="0" />
-      <Item value="private" priority="1" />
+      <Item value="private" priority="2" />
       <Item value="Mock&lt;IFeedSettings&gt;" priority="0" />
       <Item value="m_settings" priority="1" />
-      <Item value="x" priority="2" />
+      <Item value="x" priority="4" />
       <Item value="XElement`0" priority="6" />
       <Item value="XElement" priority="3" />
       <Item value="link" priority="1" />
-      <Item value="ctor" priority="3" />
+      <Item value="ctor" priority="4" />
       <Item value="String`0" priority="3" />
-      <Item value="m_feedInfo" priority="0" />
+      <Item value="m_feedInfo" priority="4" />
       <Item value="Entry`0" priority="0" />
       <Item value="Feed`0" priority="2" />
-      <Item value="foreach" priority="1" />
-      <Item value="List" priority="0" />
+      <Item value="foreach" priority="3" />
+      <Item value="List" priority="1" />
       <Item value="elements" priority="1" />
-      <Item value="entry" priority="2" />
-      <Item value="var" priority="3" />
+      <Item value="entry" priority="7" />
+      <Item value="var" priority="7" />
       <Item value="summary" priority="1" />
       <Item value="int" priority="0" />
       <Item value="Feed" priority="1" />
       <Item value="feed" priority="8" />
       <Item value="if" priority="0" />
       <Item value="DateTime`0" priority="1" />
-      <Item value="PugpigRepository`0" priority="0" />
-      <Item value="m_context" priority="1" />
+      <Item value="PugpigRepository`0" priority="1" />
+      <Item value="m_context" priority="3" />
       <Item value="Entry" priority="0" />
       <Item value="AuthourName" priority="0" />
-      <Item value="edition" priority="1" />
+      <Item value="edition" priority="8" />
       <Item value="XmlFormatter`0" priority="0" />
       <Item value="Hive" priority="2" />
       <Item value="publicationId" priority="0" />
       <Item value="Cms" priority="1" />
       <Item value="Web" priority="1" />
       <Item value="FieldRenderer`0" priority="0" />
-      <Item value="class" priority="1" />
+      <Item value="class" priority="2" />
       <Item value="static" priority="0" />
       <Item value="const" priority="0" />
       <Item value="Id" priority="0" />
-      <Item value="Image" priority="0" />
-      <Item value="Umbraco" priority="0" />
-      <Item value="UmbracoHelper" priority="0" />
+      <Item value="Image" priority="1" />
+      <Item value="Umbraco" priority="1" />
+      <Item value="UmbracoHelper" priority="2" />
       <Item value="null" priority="0" />
       <Item value="Summary" priority="0" />
       <Item value="Updated" priority="1" />
-      <Item value="m_pugpigRepository" priority="2" />
-      <Item value="publicationName" priority="4" />
+      <Item value="m_pugpigRepository" priority="3" />
+      <Item value="publicationName" priority="9" />
       <Item value="Mock&lt;IPugpigRepository&gt;" priority="0" />
       <Item value="m_xmlFormatter" priority="0" />
       <Item value="IFeedSettings`0" priority="1" />
@@ -87,7 +87,7 @@
       <Item value="pugpigRepository" priority="0" />
       <Item value="ActivatorHelper`0" priority="0" />
       <Item value="Exception" priority="2" />
-      <Item value="true" priority="0" />
+      <Item value="true" priority="1" />
       <Item value="PugpigInstallTask`0" priority="0" />
       <Item value="configurationTaskContex" priority="2" />
       <Item value="FrameworkContext" priority="0" />
@@ -101,7 +101,66 @@
       <Item value="ImplementSectionModel`0" priority="0" />
       <Item value="dataTypeAlias" priority="0" />
       <Item value="override" priority="0" />
-      <Item value="urlHelper" priority="0" />
+      <Item value="urlHelper" priority="1" />
+      <Item value="XmlResult" priority="0" />
+      <Item value="PugpigSurfaceController`0" priority="0" />
+      <Item value="editions" priority="2" />
+      <Item value="publicatinName" priority="0" />
+      <Item value="ContentFields`0" priority="1" />
+      <Item value="Activator`0" priority="0" />
+      <Item value="ReadOnlyDictionary" priority="0" />
+      <Item value="RenderViewHiveManagerWrapper`0" priority="0" />
+      <Item value="HiveId" priority="0" />
+      <Item value="media" priority="0" />
+      <Item value="imageId" priority="0" />
+      <Item value="Uri" priority="0" />
+      <Item value="umbracoHelper" priority="6" />
+      <Item value="m_urlHelper" priority="0" />
+      <Item value="CurrentUmbracoPage`0" priority="0" />
+      <Item value="this" priority="1" />
+      <Item value="m_routableRequest" priority="0" />
+      <Item value="IRenderModelFactory`0" priority="0" />
+      <Item value="renderModelFactory" priority="0" />
+      <Item value="m_renderModelFactory" priority="0" />
+      <Item value="UmbracoHelper`0" priority="0" />
+      <Item value="imageUrl" priority="1" />
+      <Item value="mock" priority="0" />
+      <Item value="It`0" priority="0" />
+      <Item value="TypeFinder`0" priority="0" />
+      <Item value="ICanBeDirty`0" priority="0" />
+      <Item value="XmlResult`0" priority="0" />
+      <Item value="m_acquisitionXmlFormatter" priority="1" />
+      <Item value="IBookSettings`0" priority="1" />
+      <Item value="BookSettings`0" priority="0" />
+      <Item value="Page`0" priority="1" />
+      <Item value="Book`0" priority="1" />
+      <Item value="CacheManifestUrl" priority="0" />
+      <Item value="PageUrl" priority="0" />
+      <Item value="Book" priority="0" />
+      <Item value="book" priority="5" />
+      <Item value="List&lt;Page&gt;" priority="0" />
+      <Item value="Page" priority="0" />
+      <Item value="page" priority="1" />
+      <Item value="bookName" priority="0" />
+      <Item value="pages" priority="1" />
+      <Item value="DynamicContentList`0" priority="0" />
+      <Item value="PublicationSumaryModel`0" priority="2" />
+      <Item value="allPublications" priority="0" />
+      <Item value="publicationSumaryModels" priority="2" />
+      <Item value="List&lt;PublicationSumaryModel&gt;" priority="0" />
+      <Item value="PublicationSumaryModel" priority="0" />
+      <Item value="model" priority="3" />
+      <Item value="View`0" priority="1" />
+      <Item value="Content`0" priority="0" />
+      <Item value="schema" priority="1" />
+      <Item value="writer" priority="0" />
+      <Item value="EntitySchema`0" priority="0" />
+      <Item value="TypedEntity`0" priority="0" />
+      <Item value="bool" priority="1" />
+      <Item value="false" priority="1" />
+      <Item value="typedEntity" priority="2" />
+      <Item value="found" priority="0" />
+      <Item value="manager" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Umbraco.Pugpig.Core.XmlFormatter">
       <Item value="GenerateXml`0" priority="0" />
@@ -119,10 +178,12 @@
     <ItemStatistics item="Qualified:Umbraco.Pugpig.Core.Interfaces.IFeedSettings">
       <Item value="FeedId" priority="1" />
       <Item value="BaseUrl" priority="0" />
+      <Item value="PublicationName" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Moq.Mock`1">
       <Item value="SetupGet`1" priority="0" />
       <Item value="Object" priority="1" />
+      <Item value="Setup`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Moq.Language.Flow.ISetupGetter`2">
       <Item value="Returns`0" priority="0" />
@@ -137,9 +198,10 @@
       <Item value="Title" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
-      <Item value="Add`0" priority="1" />
-      <Item value="Count" priority="0" />
+      <Item value="Add`0" priority="3" />
+      <Item value="Count" priority="1" />
       <Item value="First`1" priority="0" />
+      <Item value="Where`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.DateTime">
       <Item value="ToShortDateString`0" priority="0" />
@@ -153,19 +215,24 @@
       <Item value="Settings" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
-      <Item value="Where`1" priority="1" />
+      <Item value="Where`1" priority="2" />
+      <Item value="First`1" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Umbraco.Cms.Web.Model.Content">
-      <Item value="DynamicField`0" priority="1" />
+      <Item value="DynamicField`0" priority="4" />
       <Item value="Attributes" priority="0" />
-      <Item value="Id" priority="1" />
-      <Item value="ContentType" priority="0" />
-      <Item value="Name" priority="0" />
+      <Item value="Id" priority="3" />
+      <Item value="ContentType" priority="1" />
+      <Item value="Name" priority="4" />
       <Item value="ParentContent`0" priority="0" />
+      <Item value="NiceUrl`0" priority="0" />
+      <Item value="Field`0" priority="1" />
+      <Item value="CurrentTemplate" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Umbraco.Pugpig.Core.Repositories.ContentFields">
       <Item value="AUTHOUR_NAME" priority="0" />
       <Item value="TITLE" priority="0" />
+      <Item value="COVER_IMAGE" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Umbraco.Framework.HiveId">
       <Item value="ToFriendlyString`0" priority="0" />
@@ -178,6 +245,7 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:Umbraco.Pugpig.Core.Interfaces.IPugpigRepository">
       <Item value="GetPublicationByName`0" priority="0" />
+      <Item value="CreateBookList`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Umbraco.Pugpig.Core.Settings.FeedSettings">
       <Item value="BaseUrl" priority="0" />
@@ -211,6 +279,7 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Umbraco.Framework.Diagnostics.LogHelper">
       <Item value="Error`1" priority="1" />
+      <Item value="TraceIfEnabled`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Umbraco.Cms.Web.Configuration.UmbracoSettings">
       <Item value="Applications" priority="0" />
@@ -218,6 +287,7 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
       <Item value="FlattenList`1" priority="0" />
+      <Item value="ToList`1" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Umbraco.Cms.Web.Configuration.UmbracoSystem.UmbracoUrlsElement">
       <Item value="CurrentConfiguration" priority="0" />
@@ -234,6 +304,9 @@
     <ItemStatistics item="Qualified:Umbraco.Hive.IHiveManager">
       <Item value="Context" priority="0" />
       <Item value="FrameworkContext" priority="0" />
+      <Item value="QueryMedia`0" priority="0" />
+      <Item value="OpenReader`1" priority="0" />
+      <Item value="Query`2" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Umbraco.Hive.ProviderSupport.RepositoryContext">
       <Item value="FrameworkContext" priority="0" />
@@ -244,67 +317,128 @@
     <ItemStatistics item="Qualified:Umbraco.Cms.Web.Context.IBackOfficeRequestContext">
       <Item value="Application" priority="0" />
     </ItemStatistics>
+    <ItemStatistics item="Qualified:Umbraco.Cms.Web.Model.Media">
+      <Item value="Id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Umbraco.Cms.Web.Mvc.UmbracoPageResult">
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Umbraco.Pugpig.Core.Controllers.PugpigSurfaceController">
+      <Item value="ControllerContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Moq.It">
+      <Item value="IsAny`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Umbraco.Pugpig.Core.Interfaces.IBookSettings">
+      <Item value="BookName" priority="3" />
+      <Item value="AuthourName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Umbraco.Pugpig.Core.Settings.BookSettings">
+      <Item value="BookName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Umbraco.Pugpig.Core.Models.Book">
+      <Item value="Entries" priority="1" />
+      <Item value="MergeLeft`3" priority="0" />
+      <Item value="LastUpdated" priority="0" />
+      <Item value="Title" priority="0" />
+      <Item value="Pages" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Umbraco.Pugpig.Core.Models.Page">
+      <Item value="PageUrl" priority="1" />
+      <Item value="CacheManifestUrl" priority="2" />
+      <Item value="Title" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Umbraco.Pugpig.Core.Models.Entry">
+      <Item value="Title" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Umbraco.Pugpig.Core.Controllers.PublicationSumaryModel">
+      <Item value="FeedUrl" priority="0" />
+      <Item value="ImageUrl" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Umbraco.Framework.Persistence.Model.Attribution.MetaData.EntitySchema">
+      <Item value="Id" priority="2" />
+      <Item value="Alias" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Umbraco.Hive.ProviderGrouping.ISchemaRepositoryGroup`1">
+      <Item value="Get`1" priority="0" />
+      <Item value="Delete`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Umbraco.Hive.ProviderGrouping.IGroupUnit`1">
+      <Item value="Repositories" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Umbraco.Hive.ProviderGrouping.IEntityRepositoryGroup`1">
+      <Item value="GetAll`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Umbraco.Framework.Persistence.Model.TypedEntity">
+      <Item value="Attribute`1" priority="0" />
+      <Item value="Id" priority="1" />
+    </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Domain/f:Publication.cs" caret="0" fromTop="0" />
-      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/f:2Edition.xml" caret="592" fromTop="9" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Models/f:Feed.cs" caret="197" fromTop="8" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Models/f:Entry.cs" caret="104" fromTop="6" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Interfaces/f:IPugpigRepository.cs" caret="153" fromTop="6" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Interfaces/f:IFeedSettings.cs" caret="118" fromTop="4" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Settings/f:FeedSettings.cs" caret="120" fromTop="4" />
-      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlFormattingTests.cs" caret="371" fromTop="14" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Repositories/f:PugpigRepository.cs" caret="607" fromTop="21" />
-      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:Pugpig/f:Index.cshtml" caret="139" fromTop="12" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:XMLFormatter.cs" caret="220" fromTop="9" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:Schema.xml" caret="0" fromTop="0" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:PugpigBuilder.cs" caret="185" fromTop="5" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:IAbstractRequest.cs" caret="35" fromTop="0" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:CoreFakeCmsData.cs" caret="2014" fromTop="34" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:Files.Designer.cs" caret="2059" fromTop="8" />
-      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Properties/f:AssemblyInfo.cs" caret="515" fromTop="12" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:AbstractRequest.cs" caret="219" fromTop="9" />
-      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:ControllerTests.cs" caret="133" fromTop="5" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:ImportHelper.cs" caret="15407" fromTop="16" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Properties/f:AssemblyInfo.cs" caret="131" fromTop="5" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:PugpigController.cs" caret="419" fromTop="12" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigInstallTask.cs" caret="1043" fromTop="19" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigDataSet.cs" caret="2713" fromTop="26" />
-      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/f:Web.config" caret="810" fromTop="17" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:ContentInstaller.cs" caret="966" fromTop="5" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:Files.Designer.cs" caret="4007" fromTop="8" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Interfaces/f:IEditionXmlFormatter.cs" caret="0" fromTop="0" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlEditionFormattingTests.cs" caret="365" fromTop="14" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Interfaces/f:IFeedSettings.cs" caret="169" fromTop="7" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Interfaces/f:IBookSettings.cs" caret="199" fromTop="8" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Settings/f:BookSettings.cs" caret="72" fromTop="2" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Settings/f:FeedSettings.cs" caret="189" fromTop="6" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Models/f:Entry.cs" caret="362" fromTop="13" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Models/f:Feed.cs" caret="274" fromTop="11" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/d:Data/d:book/f:1PageBookExample.xml" caret="839" fromTop="18" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Interfaces/f:IAcquisitionXmlFormatter.cs" caret="191" fromTop="7" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:Schema.xml" caret="2233" fromTop="12" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Models/f:Book.cs" caret="0" fromTop="0" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Models/f:Page.cs" caret="261" fromTop="9" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:AcquisitionXmlFormatter.cs" caret="4546" fromTop="30" />
+      <File id="0219D94D-C154-46F4-BA7B-1CE9BFF7CEC3/f:XmlAcquisitionFormattingTests.cs" caret="2419" fromTop="16" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:EditionXmlFormatter.cs" caret="4273" fromTop="48" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:InitContentEditor/d:js/f:jquery.min.js" caret="0" fromTop="0" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:InitContentEditor/d:css/f:reset.css" caret="1106" fromTop="32" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:PugpigController.cs" caret="1374" fromTop="16" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:ImportHelper.cs" caret="8807" fromTop="19" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:PugpigSurface/f:Index.cshtml" caret="237" fromTop="8" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:InitContentEditor/d:css/f:style.css" caret="8071" fromTop="32" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:InitContentEditor/f:InstallPugpigData.cshtml" caret="2153" fromTop="21" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/f:Web.config" caret="4541" fromTop="69" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Interfaces/f:IPugpigRepository.cs" caret="208" fromTop="7" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigDataSet.cs" caret="4680" fromTop="19" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:umbraco.config" caret="4672" fromTop="15" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Repositories/f:PugpigRepository.cs" caret="1055" fromTop="8" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:ContentInstaller.cs" caret="897" fromTop="7" />
     </RecentFiles>
     <RecentEdits>
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigDataSet.cs" caret="17375" fromTop="429" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigInstallTask.cs" caret="2603" fromTop="16" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:ContentInstaller.cs" caret="4959" fromTop="104" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:ImportHelper.cs" caret="23714" fromTop="25" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:ImportHelper.cs" caret="23754" fromTop="618" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:AbstractRequest.cs" caret="74" fromTop="3" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:IAbstractRequest.cs" caret="35" fromTop="0" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:PugpigController.cs" caret="1458" fromTop="10" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:PugpigController.cs" caret="1575" fromTop="48" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/f:PugpigBuilder.cs" caret="185" fromTop="5" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:AbstractRequest.cs" caret="219" fromTop="9" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Properties/f:AssemblyInfo.cs" caret="131" fromTop="5" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:PugpigController.cs" caret="623" fromTop="17" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:PugpigController.cs" caret="793" fromTop="27" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:PugpigController.cs" caret="419" fromTop="12" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigInstallTask.cs" caret="642" fromTop="8" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigInstallTask.cs" caret="842" fromTop="22" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigInstallTask.cs" caret="842" fromTop="11" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigInstallTask.cs" caret="842" fromTop="7" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigInstallTask.cs" caret="956" fromTop="13" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigInstallTask.cs" caret="1399" fromTop="35" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigInstallTask.cs" caret="2299" fromTop="38" />
-      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/f:Web.config" caret="329" fromTop="11" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigInstallTask.cs" caret="2631" fromTop="49" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigDataSet.cs" caret="2713" fromTop="26" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:ContentInstaller.cs" caret="1790" fromTop="35" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:ContentInstaller.cs" caret="1582" fromTop="28" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:ContentInstaller.cs" caret="947" fromTop="20" />
-      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:ContentInstaller.cs" caret="1267" fromTop="27" />
-      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/f:Web.config" caret="810" fromTop="17" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:ContentInstaller.cs" caret="775" fromTop="13" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:ContentInstaller.cs" caret="775" fromTop="0" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/f:Web.config" caret="615" fromTop="16" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/f:Web.config" caret="890" fromTop="12" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/f:Web.config" caret="4986" fromTop="22" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/f:Web.config" caret="4667" fromTop="27" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/f:Web.config" caret="3691" fromTop="27" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:InitContentEditor/d:css/f:style.css" caret="8071" fromTop="2" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:InitContentEditor/d:css/f:style.css" caret="8071" fromTop="14" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:InitContentEditor/d:css/f:style.css" caret="8071" fromTop="13" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:InitContentEditor/d:css/f:style.css" caret="8071" fromTop="26" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:InitContentEditor/d:css/f:style.css" caret="8071" fromTop="32" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/f:Web.config" caret="3359" fromTop="26" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:InitContentEditor/f:InstallPugpigData.cshtml" caret="2379" fromTop="30" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:InitContentEditor/f:InstallPugpigData.cshtml" caret="2379" fromTop="15" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:InitContentEditor/f:InstallPugpigData.cshtml" caret="2379" fromTop="6" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:InitContentEditor/d:css/f:style.css" caret="8071" fromTop="32" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:InitContentEditor/f:InstallPugpigData.cshtml" caret="2379" fromTop="30" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/d:Views/d:InitContentEditor/f:InstallPugpigData.cshtml" caret="2153" fromTop="21" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:ContentInstaller.cs" caret="1208" fromTop="24" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Controllers/f:ContentInstaller.cs" caret="1298" fromTop="29" />
+      <File id="83FE8A5A-1313-4E9F-9766-69F827EAEBD8/f:Web.config" caret="4541" fromTop="30" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigDataSet.cs" caret="3567" fromTop="25" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigDataSet.cs" caret="4680" fromTop="20" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigDataSet.cs" caret="4658" fromTop="17" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Repositories/f:PugpigRepository.cs" caret="1054" fromTop="8" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigDataSet.cs" caret="4658" fromTop="15" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigDataSet.cs" caret="4030" fromTop="4" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigDataSet.cs" caret="4534" fromTop="19" />
+      <File id="BE0E65FC-3A00-474C-982A-CEABBB68BFC6/d:Installers/f:PugpigDataSet.cs" caret="4680" fromTop="19" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
