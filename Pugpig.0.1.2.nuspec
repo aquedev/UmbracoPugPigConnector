@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>0.1.2</version>
+    <authors>leec</authors>
+    <owners>Aqueduct</owners>
+    <projectUrl>http://www.aqueduct.co.uk</projectUrl>
+    <iconUrl>http://pugpig.com/img/logo.png</iconUrl>
+    <id>Pugpig</id>
+    <title>Pugpig plugin</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A plugin to allow you to publish your content to Apples iBooks using pugpig</description>
+    <summary>A plugin to allow you to publish your content to Apples iBooks using pugpig</summary>
+    <releaseNotes>Beta!</releaseNotes>
+  </metadata>
+  <files>
+    <file src="src\Umbraco.Pugpig.Web\bin\Umbraco.Pugpig.Core.dll" target="lib\Umbraco.Pugpig.Core.dll" />
+    <file src="src\Umbraco.Pugpig.Web\bin\Umbraco.Pugpig.Web.dll" target="lib\Umbraco.Pugpig.Web.dll" />
+    <file src="src\Umbraco.Pugpig.Web\Views\InitContentEditor\css\reset.css" target="Views\InitContentEditor\css\reset.css" />
+    <file src="src\Umbraco.Pugpig.Web\Views\InitContentEditor\css\style.css" target="Views\InitContentEditor\css\style.css" />
+    <file src="src\Umbraco.Pugpig.Web\Views\InitContentEditor\fonts\karnak-pro-light.woff" target="Views\InitContentEditor\fonts\karnak-pro-light.woff" />
+    <file src="src\Umbraco.Pugpig.Web\Views\InitContentEditor\fonts\karnak-pro-medium.woff" target="Views\InitContentEditor\fonts\karnak-pro-medium.woff" />
+    <file src="src\Umbraco.Pugpig.Web\Views\InitContentEditor\images\devices.png" target="Views\InitContentEditor\images\devices.png" />
+    <file src="src\Umbraco.Pugpig.Web\Views\InitContentEditor\images\logo.png" target="Views\InitContentEditor\images\logo.png" />
+    <file src="src\Umbraco.Pugpig.Web\Views\InitContentEditor\images\logobig.png" target="Views\InitContentEditor\images\logobig.png" />
+    <file src="src\Umbraco.Pugpig.Web\Views\InitContentEditor\images\porkme.png" target="Views\InitContentEditor\images\porkme.png" />
+    <file src="src\Umbraco.Pugpig.Web\Views\InitContentEditor\images\ppbig.png" target="Views\InitContentEditor\images\ppbig.png" />
+    <file src="src\Umbraco.Pugpig.Web\Views\InitContentEditor\js\jquery.min.js" target="Views\InitContentEditor\js\jquery.min.js" />
+    <file src="src\Umbraco.Pugpig.Web\Views\InitContentEditor\InstallPugpigData.cshtml" target="Views\InitContentEditor\InstallPugpigData.cshtml" />
+    <file src="src\Umbraco.Pugpig.Web\Views\PugpigSurface\Index.cshtml" target="Views\PugpigSurface\Index.cshtml" />
+    <file src="src\Umbraco.Pugpig.Web\Web.config" target="Web.config" />
+  </files>
+</package>

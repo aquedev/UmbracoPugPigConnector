@@ -1,4 +1,6 @@
-﻿using Umbraco.Cms.Web;
+﻿using System.Collections.Generic;
+using Umbraco.Cms.Web;
+using Umbraco.Pugpig.Core.Controllers;
 using Umbraco.Pugpig.Core.Models;
 
 namespace Umbraco.Pugpig.Core.Interfaces
@@ -7,5 +9,6 @@ namespace Umbraco.Pugpig.Core.Interfaces
     {
         Feed CreateEditionList(string publicationName, UmbracoHelper umbracoHelper);
         Book CreateBookList(string bookName, string publicationName, UmbracoHelper umbracoHelper);
+        List<PublicationSumaryModel> GetAllPublications(UmbracoHelper umbracoHelper);
     }
 }

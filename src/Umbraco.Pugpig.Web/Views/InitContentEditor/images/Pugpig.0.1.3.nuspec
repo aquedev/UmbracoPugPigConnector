@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>0.1.3</version>
+    <authors>leec</authors>
+    <owners>Aqueduct</owners>
+    <projectUrl>http://www.aqueduct.co.uk</projectUrl>
+    <iconUrl>http://pugpig.com/img/logo.png</iconUrl>
+    <id>Pugpig</id>
+    <title>Pugpig plugin</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A plugin to allow you to publish your content to Apples iBooks using pugpig</description>
+    <summary>A plugin to allow you to publish your content to Apples iBooks using pugpig</summary>
+    <releaseNotes>Beta!</releaseNotes>
+  </metadata>
+  <files>
+    <file src="..\..\..\bin\Umbraco.Pugpig.Core.dll" target="lib\Umbraco.Pugpig.Core.dll" />
+    <file src="..\..\..\bin\Umbraco.Pugpig.Web.dll" target="lib\Umbraco.Pugpig.Web.dll" />
+    <file src="..\css\reset.css" target="Views\InitContentEditor\css\reset.css" />
+    <file src="..\css\style.css" target="Views\InitContentEditor\css\style.css" />
+    <file src="..\fonts\karnak-pro-light.woff" target="Views\InitContentEditor\fonts\karnak-pro-light.woff" />
+    <file src="..\fonts\karnak-pro-medium.woff" target="Views\InitContentEditor\fonts\karnak-pro-medium.woff" />
+    <file src="appstore.png" target="Views\InitContentEditor\images\appstore.png" />
+    <file src="devices.png" target="Views\InitContentEditor\images\devices.png" />
+    <file src="logo.png" target="Views\InitContentEditor\images\logo.png" />
+    <file src="logobig.png" target="Views\InitContentEditor\images\logobig.png" />
+    <file src="porkme.png" target="Views\InitContentEditor\images\porkme.png" />
+    <file src="ppbig.png" target="Views\InitContentEditor\images\ppbig.png" />
+    <file src="..\js\jquery.min.js" target="Views\InitContentEditor\js\jquery.min.js" />
+    <file src="..\InstallPugpigData.cshtml" target="Views\InitContentEditor\InstallPugpigData.cshtml" />
+    <file src="..\..\PugpigSurface\Index.cshtml" target="Views\PugpigSurface\Index.cshtml" />
+    <file src="..\..\..\Web.config" target="Web.config" />
+  </files>
+</package>

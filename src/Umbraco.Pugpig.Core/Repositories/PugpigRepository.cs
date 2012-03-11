@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using Umbraco.Cms.Web;
 using Umbraco.Cms.Web.Context;
 using System.Linq;
-using Umbraco.Cms.Web.Model;
-using Umbraco.Framework;
 using Umbraco.Framework.Diagnostics;
+using Umbraco.Pugpig.Core.Controllers;
 using Umbraco.Pugpig.Core.Interfaces;
 using Umbraco.Pugpig.Core.Models;
 
@@ -83,6 +82,31 @@ namespace Umbraco.Pugpig.Core.Repositories
                 book.Pages.Add(page);
             }
             return book;
+        }
+
+        public List<PublicationSumaryModel> GetAllPublications(UmbracoHelper umbracoHelper)
+        {
+            List<PublicationSumaryModel> publicationSumaryModels = new List<PublicationSumaryModel>();
+
+            var editions = m_context.Application.Hive.QueryContent()
+               .Where(x => x.ContentType.Alias == "iBookFeed")
+               .ToList();
+
+            foreach (var edition in editions)
+            {
+                var imageUrl = umbracoHelper.GetMediaUrl(edition.Id, "coverImage");
+                var model = new PublicationSumaryModel
+                                {
+                                    FeedUrl =
+                                        String.Format("umbraco/pugpig/PugpigSurface/Editions?publicationName={0}",
+                                                      edition.Name),
+                                    Name = edition.Name,
+                                    ImageUrl = imageUrl
+                                };
+                publicationSumaryModels.Add(model);
+
+            }
+            return publicationSumaryModels;
         }
     }
 }

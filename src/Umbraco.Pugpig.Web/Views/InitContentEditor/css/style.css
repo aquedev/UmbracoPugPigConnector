@@ -1,0 +1,140 @@
+﻿@font-face {
+  font-family: 'Karnak Pro Medium';
+  src: url('/Content/images/InitContentEditor/karnak-pro-medium.eot');
+  src: url('/Content/images/InitContentEditor/karnak-pro-medium.eot?#iefix') format('embedded-opentype'),
+  url('/Content/images/InitContentEditor/karnak-pro-medium.woff') format('woff'),
+  url('/Content/images/InitContentEditor/karnak-pro-medium.ttf') format('truetype'),
+  url('../fonts/karnak-pro-medium.svg#KarnakPro-Medium') format('svg');
+}
+@font-face {
+  font-family: 'Karnak Pro Light';
+  src: url('/Content/images/InitContentEditor/karnak-pro-light.eot');
+  src: url('/Content/images/InitContentEditor/karnak-pro-light.eot?#iefix') format('embedded-opentype'),
+  url('/Content/images/InitContentEditor/karnak-pro-light.woff') format('woff'),
+  url('/Content/images/InitContentEditor/karnak-pro-light.ttf') format('truetype'),
+  url('/Content/images/InitContentEditor/karnak-pro-light.svg#KarnakPro-Light') format('svg');
+}
+
+
+/***********************
+body
+***********************/
+html {	margin: 0; padding: 0; border: 0;}
+body { width: 730px; margin-left: auto; margin-right: auto; min-height:100%; height:auto !important;}
+#outer {width: 730px; margin-left: auto; margin-right: auto; position: relative;}
+#wrapper {width: 730px; padding-left: 0px; padding-right: 0px; margin-top: -149px; float: left; -moz-box-shadow: 3px 3px 20px #888; -webkit-box-shadow: 3px 3px 20px #888; -o-box-shadow: 3px 3px 20px #888; box-shadow: 3px 3px 20px #888;}
+
+h1, h2, h3 {font-family: 'Karnak Pro Medium', Arial, sans-serif; font-weight:normal; font-size:2.6em; color: #333; margin:1.5em 0 0.2em 0; float:left; clear:both;}
+p { width:100%;font-family: 'Century Gothic', sans-serif; margin:1em 0 2em 0; line-height:1.6em; letter-spacing: 0.5px; clear:both; float:left;}
+p.lead {font-size: 18px; margin-top: 18px;}
+ul, ol {font-family: 'Century Gothic', sans-serif; line-height:1.6em; letter-spacing: 0.5px; padding-left:20px; float:left; clear:both;}
+a {font-family: 'Century Gothic', sans-serif;color:#000;} 
+
+table {width:100%; font-size:12px; text-align:left; border: 5px solid #583C31; border-radius:25px; color:#583C30; clear:both; float:left;}
+
+th { font-size:18px; line-height: 24px; background-color: transparent; padding:8px; text-align:center; vertical-align: middle;	font-family: "Karnak Pro Medium", Georgia, "Times New Roman", serif;  border-left: 1px solid white; border-bottom: 1px solid white;}
+th:first-child { border-left: none;}
+th.col1 { width: 250px; }
+
+tr {background-color:#eee; font-family: "Century Gothic", sans-serif; font-size: 14px; line-height: 18px;}
+tr.light {background-color:#ddd;}
+tr.center { text-align:center; }
+
+td {padding:10px 8px; width:35px; vertical-align: middle; }
+td.supported { background: url('../img/plaster-li.png') no-repeat center; padding: 15px 30px;}
+td.supported span { display:block; width:0; height:0; overflow:hidden; }
+td.left {font-family: 'Karnak Pro Medium', Georgia, "Times New Roman", serif; text-align:left;}
+
+blockquote {width:550px; margin:0 0 1.5em 50px; padding:20px 30px 10px; background:#ccc; clear: both; float:left;}
+
+iframe {border:0;}
+
+code.language-html,code.language-css,code.language-objc { width:100%; font-family:monospace; font-weight:normal; font-size:1.2em; float:left; clear:both;}
+code.language-objc span.comment { color: #11740a; font-style: italic; }
+code.language-objc span.hilite { background-color:#FF9; display:inline-block; width:100%; }
+code,samp,kbd { font-family:"Century Gothic", Arial,sans-serif; font-weight:bold; }
+
+/***********************
+header
+***********************/
+
+#logo {margin-top: 63px; float: left;}
+#porkMe { width:149px; height:149px; text-indent:-500em; background:url(/Content/images/InitContentEditor/porkme.png) no-repeat; overflow:hidden; display:block; position: relative; top:0; right: 0; z-index:20; float: right;}
+#nav { font-family:  'Karnak Pro Medium', Arial, sans-serif; list-style-type: none; float: right; margin-top: 70px; z-index:22; position: relative;}
+#nav ul {  margin:0; padding:0; list-style-type:none; line-height:normal; color: #583C31; font-size:18px; height:100%;}
+#nav li { padding:0 10px 0 10px; background-image:url(/Content/images/InitContentEditor/line.jpg); background-repeat:no-repeat; background-position:right 50%; float:left;}
+#nav li.last, #nav .last a {background:none; padding-right:0;}
+#nav a {height:24px; font-family:'Karnak Pro Medium', Arial, sans-serif; text-decoration:none; font-weight:normal; padding:0 10px 0 10px; display:block;}
+#nav a:hover {color:#EF93BC;}
+#main {width:100%; float:left; clear:both;}
+
+/***********************
+top
+***********************/
+
+#top {margin-bottom:3em; height: 460px; background:url(/Content/images/InitContentEditor/ppbig.png) 0 80px no-repeat;}
+#top img {margin-top:60px; float:right;}
+#top p {width: 390px; font-size:1.7em; margin-bottom:1em; float: right; font-family: 'Karnak Pro Light', Arial, sans-serif;}
+#getbutton {width:222px; height:60px; color: white; font-size: 30px; font-weight:normal; text-decoration:none; margin-right:143px; padding:27px 0 0 25px; background-image: url(../img/button.png); float:right; clear:both;}
+p#demoVideo { font-size:1em; margin-top:2em; margin-left: 5px;}
+
+/***********************
+middle
+***********************/
+
+#middle { margin-bottom:50px;}
+#intro { width:430px; margin-right:20px; float:left;}
+#intro h2 {width:100%; font-size:2.6em; margin-top:0;}
+#intro p {margin:1em 0;width: 400px;}
+#intro strong {font-size:21px;}
+.devices {width:388px; float: right; margin-top: 66px;}
+figcaption {color:#fff; text-align:right; font-family:'Century Gothic', sans-serif;  font-style:italic; margin:1em 0; float: right; clear:both;}
+.section {width:100%; font-size:16px; float:left; clear:both;}
+
+/***********************
+bottom
+***********************/
+#bottom h2 { margin:30px 0 50px 0;}
+#bottom ul {list-style: none;}
+#bottom ul.left {width:385px; float: left;}
+#bottom ul.right {width:385px; float: right; clear: none;}
+#bottom li { width:385px; float: left; margin:20px 40px 20px 0;}
+#bottom li p {float: right; width: 225px;}
+#bottom li img {margin: 20px 0;}
+#bottom li img.days {margin-top: 12px; margin-right: 10px;}
+#bottom li img.once {margin-top: -50px;}
+#bottom li img.cost {margin-top: 5px;}
+#bottom li img.html {margin-top: 0;}
+#bottom li img.web {margin-top: -20px;}
+#bottom li img.person {margin-top: 0; margin-left: 15px;}
+#bottom .rightCol {margin:0;}
+
+#clients p {width: 400px; float: right; clear: none; margin-top: 53px; margin-bottom: 0;}
+
+/***********************
+video
+***********************/
+
+#video {padding-bottom:100px;}
+#video h2 {margin-bottom:0.5em; width: 400px;}
+#video p { clear:none; float:right; width: 400px; margin-top: 53px; margin-bottom: 50px;}
+#pugvid { border-top:25px solid #000; border-bottom:25px solid #000; border-radius:5px;  height: 408px; width: 588px; background:#000; margin-left: 126px;}
+
+/***********************
+footer
+***********************/
+
+footer {  width:100%;  margin:0; padding:0; float:left; clear:both; background-color: #666; color: white; padding-right: 100px; padding-left: 100px; margin-left: -100px; height: 120px;}
+footer ul { display:block; margin:0; padding:0; list-style:none;}
+footer > ul > li {display: block; margin: 8px 0 0 0; width: 210px; height: 105px; float: left; padding: 0 34px; border-left: 1px solid white; overflow: hidden; font-size: 9px;}
+
+a.twitter-follow-button {color: white;}
+ .button {color: white;}
+
+footer > ul > li:first-child { border-left:none; }
+footer a { color:white; font-weight: bold;}
+footer p { margin-top:0; margin-bottom:14px;   font-size: 12px; line-height: 18px; width: 196px; }
+footer address { margin:0; padding:0; font-style:normal; color: white;}
+footer address a {color: white;}
+footer > ul > li > ul > li { display:block; width:150px; padding:5px; }
+footer > ul > li > ul > li:first-child { padding-top:3px; }

@@ -1,0 +1,15 @@
+﻿@model List<Umbraco.Pugpig.Core.Controllers.PublicationSumaryModel>
+
+<table>
+@foreach(var summary in Model){
+    <tr>
+        <td>
+	        <img width="100px" height="100px" src="@Html.Raw(summary.ImageUrl)"/>
+        </td>
+        <td>
+           @Html.Raw(summary.Name)
+        </td>
+    </tr>
+}
+
+</table>

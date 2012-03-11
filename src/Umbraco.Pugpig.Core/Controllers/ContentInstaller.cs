@@ -31,7 +31,8 @@ namespace Umbraco.Pugpig.Core.Controllers
          public ActionResult InstallPugpigData()
          {
              m_pugpigDataSet.InstallDevDataset(Hive, FrameworkContext);
-             return Content("All content types have ben installed. We even set up a demo publication for you! Go check your content tree. :) ");
+             return View();
+
          }
 
 

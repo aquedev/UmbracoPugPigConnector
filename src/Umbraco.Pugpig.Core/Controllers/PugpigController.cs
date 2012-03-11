@@ -1,14 +1,21 @@
-﻿using System.Web.Mvc;
+﻿using System.Collections.Generic;
+using System.Web.Mvc;
 using Umbraco.Cms.Web;
 using Umbraco.Cms.Web.Context;
 using Umbraco.Cms.Web.Surface;
 using Umbraco.Framework;
-using Umbraco.Framework.Diagnostics;
 using Umbraco.Pugpig.Core.Interfaces;
 using Umbraco.Pugpig.Core.Settings;
 
 namespace Umbraco.Pugpig.Core.Controllers
 {
+    public class PublicationSumaryModel
+    {
+        public string FeedUrl { get; set; }
+        public string Name { get; set; }
+        public string ImageUrl { get; set; }
+    }
+
     [Surface("98625300-6DF0-41AF-A432-83BD0232815C")]
     [DemandsDependencies(typeof(PugpigBuilder))]
     public class PugpigSurfaceController : SurfaceController
@@ -27,7 +34,9 @@ namespace Umbraco.Pugpig.Core.Controllers
 
         public  ActionResult Index()
         {
-            return View();
+            UmbracoHelper umbracoHelper = new UmbracoHelper(ControllerContext, m_routableRequest, m_renderModelFactory);
+            List<PublicationSumaryModel> allPublications = m_pugpigRepository.GetAllPublications(umbracoHelper);
+            return View(allPublications);
         }
 
         public PugpigSurfaceController(IAbstractRequest abstractRequest, 
@@ -41,18 +50,14 @@ namespace Umbraco.Pugpig.Core.Controllers
 
         public XmlResult Editions(string publicationName)
         {
-            UmbracoHelper umbracoHelper = new UmbracoHelper(this.ControllerContext,m_routableRequest, m_renderModelFactory);
-
-            LogHelper.TraceIfEnabled<PugpigSurfaceController>("The edition passed into the controller was {0}.", () => publicationName);       
+            UmbracoHelper umbracoHelper = new UmbracoHelper(ControllerContext,m_routableRequest, m_renderModelFactory);
             CreaterEditionFormatter(publicationName);
             return new XmlResult(m_editionXmlFormatter.GenerateXml(m_pugpigRepository.CreateEditionList(publicationName, umbracoHelper)));
         }
 
         public XmlResult Acquisition(string edition, string publicationName)
         {
-            UmbracoHelper umbracoHelper = new UmbracoHelper(this.ControllerContext, m_routableRequest, m_renderModelFactory);
-
-            LogHelper.TraceIfEnabled<PugpigSurfaceController>("The edition passed into the controller was {0}.", () => edition);
+            UmbracoHelper umbracoHelper = new UmbracoHelper(ControllerContext, m_routableRequest, m_renderModelFactory);
             CreaterAcquisitionFormatter(edition);
             return new XmlResult(m_acquisitionXmlFormatter.GenerateXml(m_pugpigRepository.CreateBookList(edition,publicationName, umbracoHelper)));
 

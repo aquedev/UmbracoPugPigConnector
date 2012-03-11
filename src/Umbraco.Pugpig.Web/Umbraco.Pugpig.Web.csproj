@@ -169,7 +169,15 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Pugpig\Index.cshtml" />
+    <Content Include="Views\InitContentEditor\css\reset.css" />
+    <Content Include="Views\InitContentEditor\css\style.css" />
+    <Content Include="Views\InitContentEditor\images\devices.png" />
+    <Content Include="Views\InitContentEditor\images\logo.png" />
+    <Content Include="Views\InitContentEditor\images\logobig.png" />
+    <Content Include="Views\InitContentEditor\images\porkme.png" />
+    <Content Include="Views\InitContentEditor\images\ppbig.png" />
+    <Content Include="Views\InitContentEditor\js\jquery.min.js" />
+    <Content Include="Views\PugpigSurface\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
@@ -185,6 +193,13 @@
       <Project>{BE0E65FC-3A00-474C-982A-CEABBB68BFC6}</Project>
       <Name>Umbraco.Pugpig.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\InitContentEditor\InstallPugpigData.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Views\InitContentEditor\fonts\karnak-pro-light.woff" />
+    <None Include="Views\InitContentEditor\fonts\karnak-pro-medium.woff" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
