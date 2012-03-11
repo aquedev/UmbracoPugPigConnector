@@ -94,6 +94,7 @@ namespace Umbraco.Pugpig.Core.Installers
                     schema.AttributeGroups.AddRange(
                         framework.TypeMappers.Map<IEnumerable<Tab>, IEnumerable<AttributeGroup>>(
                             d.DefinedTabs));
+                     
                     writer.Repositories.Schemas.AddOrUpdate(schema);
                     schemas.Add(schema);
 
@@ -103,13 +104,24 @@ namespace Umbraco.Pugpig.Core.Installers
                 writer.Complete();
             }
 
+            
+
+            
+
+           
+
             using (var writer = manager.OpenWriter<IContentStore>())
             {
                 //now we can hopefully just map the schema and re-save it so it maps all properties
                 //foreach (var d in _devDataSet.ContentData.Select(x => x.DocumentType).DistinctBy(x => x.Id))
+                IEnumerable<TypedEntity> typedEntities = writer.Repositories.GetAll<TypedEntity>();
+
                 foreach (var d in DocTypes)
                 {
+                    
                     var schema = framework.TypeMappers.Map<DocumentTypeEditorModel, EntitySchema>(d);
+                   
+                    
                     writer.Repositories.Schemas.AddOrUpdate(schema);
                 }
                 writer.Complete();
