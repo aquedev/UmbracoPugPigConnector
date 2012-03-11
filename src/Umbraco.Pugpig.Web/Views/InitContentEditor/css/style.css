@@ -16,6 +16,7 @@
 }
 
 
+
 /***********************
 body
 ***********************/
@@ -58,7 +59,7 @@ code,samp,kbd { font-family:"Century Gothic", Arial,sans-serif; font-weight:bold
 header
 ***********************/
 
-#logo {margin-top: 63px; float: left;}
+#logo {margin-top: 0px; float: left; width:730px; background-color:black;}
 #porkMe { width:149px; height:149px; text-indent:-500em; background:url(/Content/images/InitContentEditor/porkme.png) no-repeat; overflow:hidden; display:block; position: relative; top:0; right: 0; z-index:20; float: right;}
 #nav { font-family:  'Karnak Pro Medium', Arial, sans-serif; list-style-type: none; float: right; margin-top: 70px; z-index:22; position: relative;}
 #nav ul {  margin:0; padding:0; list-style-type:none; line-height:normal; color: #583C31; font-size:18px; height:100%;}
@@ -72,9 +73,9 @@ header
 top
 ***********************/
 
-#top {margin-bottom:3em; height: 460px; background:url(/Content/images/InitContentEditor/ppbig.png) 0 80px no-repeat;}
+#top {mheight: 460px; background:url(/Content/images/InitContentEditor/ppbig.png) 0 80px no-repeat;}
 #top img {margin-top:60px; float:right;}
-#top p {width: 390px; font-size:1.7em; margin-bottom:1em; float: right; font-family: 'Karnak Pro Light', Arial, sans-serif;}
+#top p {width: 310px; font-size:1.7em; margin-bottom:1em; float: right; font-family: 'Karnak Pro Light', Arial, sans-serif;}
 #getbutton {width:222px; height:60px; color: white; font-size: 30px; font-weight:normal; text-decoration:none; margin-right:143px; padding:27px 0 0 25px; background-image: url(../img/button.png); float:right; clear:both;}
 p#demoVideo { font-size:1em; margin-top:2em; margin-left: 5px;}
 
@@ -138,3 +139,7 @@ footer address { margin:0; padding:0; font-style:normal; color: white;}
 footer address a {color: white;}
 footer > ul > li > ul > li { display:block; width:150px; padding:5px; }
 footer > ul > li > ul > li:first-child { padding-top:3px; }
+
+#rightColumn {
+background:none;
+}

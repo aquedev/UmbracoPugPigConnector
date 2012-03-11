@@ -171,11 +171,13 @@
   <ItemGroup>
     <Content Include="Views\InitContentEditor\css\reset.css" />
     <Content Include="Views\InitContentEditor\css\style.css" />
+    <Content Include="Views\InitContentEditor\images\appstore.png" />
     <Content Include="Views\InitContentEditor\images\devices.png" />
     <Content Include="Views\InitContentEditor\images\logo.png" />
     <Content Include="Views\InitContentEditor\images\logobig.png" />
     <Content Include="Views\InitContentEditor\images\porkme.png" />
     <Content Include="Views\InitContentEditor\images\ppbig.png" />
+    <Content Include="Views\InitContentEditor\js\hideloadingbar.js" />
     <Content Include="Views\InitContentEditor\js\jquery.min.js" />
     <Content Include="Views\PugpigSurface\Index.cshtml" />
   </ItemGroup>

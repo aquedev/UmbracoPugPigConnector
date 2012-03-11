@@ -23,7 +23,7 @@ namespace Umbraco.Pugpig.Core.Controllers
         public InitContentEditorController(IBackOfficeRequestContext requestContext)
             : base(requestContext)
         {
-            m_pugpigDataSet = new PugpigDataset(new PropertyEditorFactory(),requestContext.Application.Hive.FrameworkContext, new DefaultAttributeTypeRegistry());
+            m_pugpigDataSet = new PugpigDataset(new PropertyEditorFactory(), requestContext.Application.Hive.FrameworkContext, new DefaultAttributeTypeRegistry());
             Hive = requestContext.Application.Hive;
             FrameworkContext = requestContext.Application.Hive.FrameworkContext;
         }
